@@ -1,10 +1,8 @@
-# Supply Chain Optimization with Data Structures and Algorithms (DSA)
-
 # Project Description:
 This project demonstrates the application of data structures and algorithms (DSA) to optimize a specific aspect of supply chain management, such as inventory management, logistics planning, or route optimization. 
 
 
-## DSA involved:
+# DSA involved:
 This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
 
   * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like Dijkstra's algorithm.
@@ -14,7 +12,7 @@ This project utilizes various DSA techniques to enhance efficiency and decision-
 By incorporating DSA principles, this project aims to achieve significant improvements in (mention specific metrics your project addresses, e.g., cost savings, delivery speed, customer satisfaction).
 
 
-**Technology Stack:**
+# Technology Stack:
 
 * Programming language(s): (e.g., Python,Javascript )
 * Libraries/Frameworks: (e.g., Django, React )
