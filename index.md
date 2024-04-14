@@ -7,8 +7,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 # Goals:
 ## Skills Development
 
-This project demonstrably fosters the following skills crucial for supply chain and software development professionals:
-
 * **Data Structures and Algorithms (DSA) Proficiency:**
   -Apply efficient data structures (e.g., graphs, queues, trees) and algorithms (e.g., sorting, searching, shortest path) to solve complex supply chain problems.
   
@@ -27,12 +25,12 @@ This project demonstrably fosters the following skills crucial for supply chain 
  -Research different fields that seem aligned with my self-reflection. Read about careers, watch videos, and talk to seniors/professionals in these areas of SCM.
   
 * **Enhanced Engineering Capabilities:**
-  - Build robust and efficient supply chain systems using DSA, elevating your engineering skillset.
+  - Build robust and efficient supply chain systems using DSA, elevating my engineering skillset.
   - Demonstrate proficiency in applying computer science concepts to tackle real-world supply chain problems.
 
 * **Portfolio Impact:**
   - Create a strong portfolio showcasing innovative projects that address real-world supply chain problems using DSA.
-  - Impress potential employers with your ability to design and implement effective solutions, making you a strong candidate for roles in supply chain management and software development.
+  - Impress potential employers with my ability to design and implement effective solutions, making you a strong candidate for roles in supply chain management and software development.
 
 
  
@@ -40,11 +38,11 @@ This project demonstrably fosters the following skills crucial for supply chain 
 # DSA involved:
 This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
 
-  * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like Dijkstra's algorithm.
+  * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A* ,  Dijkstra's algorithms etc.
   * Queues can be used to model inventory flow, ensuring First-In-First-Out (FIFO) or other inventory management strategies.
   * Sorting algorithms can be applied to prioritize orders or shipments based on urgency, cost, or other criteria.
 
-By incorporating DSA principles, this project aims to achieve significant improvements in (mention specific metrics your project addresses, e.g., cost savings, delivery speed, customer satisfaction).
+By incorporating DSA principles, my project aims to achieve significant improvements in  cost savings, delivery speed, customer satisfaction.
 
 
 # Technology Stack:
