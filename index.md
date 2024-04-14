@@ -1,7 +1,5 @@
 # Supply Chain Optimization with Data Structures and Algorithms (DSA)
 
-https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/e0c1b077-40b9-4395-95c0-9b47e41e1ae9
-
 # Project Description:
 This project demonstrates the application of data structures and algorithms (DSA) and ML to optimize a specific aspect of supply chain management, such as inventory management, logistics planning, or route optimization. 
 
