@@ -134,5 +134,5 @@ This system empowers businesses with a range of functionalities to enhance suppl
 
 **Author:**
 
-* Ravishakar Bevinal 
+* Ravishankar Bevinal 
 
