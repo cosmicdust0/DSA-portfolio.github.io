@@ -37,16 +37,16 @@ This project demonstrates the application of data structures and algorithms (DSA
 # DSA involved:
 This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
 
-  * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A* ,  Dijkstra's algorithms etc.
+  * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A*,  Dijkstra's algorithms etc.
   * Queues can be used to model inventory flow, ensuring First-In-First-Out (FIFO) or other inventory management strategies.
   * Sorting algorithms can be applied to prioritize orders or shipments based on urgency, cost, or other criteria.
 
-By incorporating DSA principles, my project aims to achieve significant improvements in  cost savings, delivery speed, customer satisfaction.
+By incorporating DSA principles, my project aims to achieve significant improvements in  cost savings, delivery speed, and customer satisfaction.
 
 
 # Technology Stack:
 
-* Programming language(s): (e.g., Python,Javascript )
+* Programming language(s): (e.g., Python, Javascript )
 * Libraries/Frameworks: (e.g., Django, React )
 
 
@@ -59,6 +59,7 @@ This system comprises several interconnected modules for streamlined supply chai
 * Manages supplier data (contact information, product catalogues, lead times, quality records).
 * Enables searching and filtering suppliers based on various criteria.
 * Supports supplier performance evaluation and risk assessments.
+![supplier](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/f8adcad6-8794-49cb-96c4-a5fabd0495b2)
 
 **2. Economics/Finances of the complete product flow:**
 
@@ -66,11 +67,12 @@ This system comprises several interconnected modules for streamlined supply chai
 * Implements pricing models to optimize profitability.
 * Analyzes economic trends and forecasts for informed decision-making.
 
-**3. Storage for raw material, finished goods and other consumables:**
+**3. Storage for raw materials, finished goods and other consumables:**
 
 * Tracks inventory levels across various storage facilities.
 * Optimizes inventory placement and allocation using appropriate data structures (e.g., graphs).
 * Implements inventory management strategies (FIFO, LIFO, Just-in-Time).
+![storage](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/1a960c8b-6c59-4499-bea0-dd585316175c)
 
 **4. Production Strategies for efficient use of resources:**
 
@@ -89,6 +91,7 @@ This system comprises several interconnected modules for streamlined supply chai
 * Optimizes transportation routes and modes (e.g., using shortest path algorithms).
 * Forecasts delivery times and manages logistics costs.
 * Tracks shipment status and provides real-time updates.
+![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
 
 ## Functionalities
 
