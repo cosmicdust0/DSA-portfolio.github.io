@@ -1,0 +1,17 @@
+# Inventory Management System
+
+This C++ program manages inventory using a hash table data structure provided by the C++ Standard Template Library (STL). It allows users to add, remove, update quantity, and display inventory items efficiently.
+
+## Features
+
+- **Add Item**: Add new items to the inventory along with their details such as name, quantity, date of manufacture, shelf life, and condition to store in.
+- **Remove Item**: Remove items from the inventory by specifying their name.
+- **Update Quantity**: Update the quantity of existing items in the inventory.
+- **Display Inventory**: Display all items in the inventory along with their details.
+
+## Code Structure
+
+- The program defines a `InventoryItem` struct to represent each inventory item, which includes fields for name, quantity, date of manufacture, shelf life, and condition to store in.
+- It also defines a `InventoryManager` class to manage the inventory, with member functions for adding, removing, updating quantity, and displaying inventory items.
+- The `getCurrentDateAsString()` function is a helper function to get the current date as a string, which is used to initialize the date of manufacture for new items.
+
