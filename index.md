@@ -127,9 +127,6 @@ This system empowers businesses with a range of functionalities to enhance suppl
 * Leverages algorithms (e.g., dynamic programming for some calculations) to optimize performance and accuracy.
 * Provides valuable insights for cost reduction and better resource allocation.
 
-**Technology Stack (Optional):**
-
-- If applicable, list the programming languages, libraries, and frameworks used.
 
 
 
