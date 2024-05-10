@@ -60,7 +60,8 @@ This system comprises several interconnected modules for streamlined supply chai
 * Enables searching and filtering suppliers based on various criteria.
 * Supports supplier performance evaluation and risk assessments.
 ![supplier](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/f8adcad6-8794-49cb-96c4-a5fabd0495b2)
-Here is the explanation and the sample code: 
+
+**Here is the explanation and the sample code:**
 [ Raw materials Suppliers analysis and selection](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/be5e3a99e1c7355d1c9ac3430ebfd470b8077be8/Raw%20materials%20Suppliers%20analysis%20and%20selection)
 
 **2. Economics/Finances of the complete product flow:**
@@ -68,6 +69,9 @@ Here is the explanation and the sample code:
 * Handles cost calculations (raw materials, production, transportation, storage).
 * Implements pricing models to optimize profitability.
 * Analyzes economic trends and forecasts for informed decision-making.
+  
+  **Here is the explanation and the sample code:**
+  Economics/Finances of the complete product flow](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/cc09a89ca8e91c833ee20bcc991d91f914c2ca08/EconomicsFinances%20of%20the%20complete%20product%20flow)
 
 **3. Storage for raw materials, finished goods and other consumables:**
 
