@@ -71,7 +71,7 @@ This system comprises several interconnected modules for streamlined supply chai
 * Analyzes economic trends and forecasts for informed decision-making.
   
   **Here is the explanation and the sample code:**
-  Economics/Finances of the complete product flow](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/cc09a89ca8e91c833ee20bcc991d91f914c2ca08/EconomicsFinances%20of%20the%20complete%20product%20flow)
+  [Economics/Finances of the complete product flow](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/cc09a89ca8e91c833ee20bcc991d91f914c2ca08/EconomicsFinances%20of%20the%20complete%20product%20flow)
 
 **3. Storage for raw materials, finished goods and other consumables:**
 
