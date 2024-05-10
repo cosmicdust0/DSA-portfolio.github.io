@@ -60,7 +60,8 @@ This system comprises several interconnected modules for streamlined supply chai
 * Enables searching and filtering suppliers based on various criteria.
 * Supports supplier performance evaluation and risk assessments.
 ![supplier](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/f8adcad6-8794-49cb-96c4-a5fabd0495b2)
-
+here is the explaination and the sample code: 
+[a relative link]
 **2. Economics/Finances of the complete product flow:**
 
 * Handles cost calculations (raw materials, production, transportation, storage).
