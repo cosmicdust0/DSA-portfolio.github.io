@@ -1,16 +1,25 @@
-# Inventory Management System
+Supplier Selection: The machine learning model will predict  the best supplier based on market trends to be selected every week, and then the info is fetched and the best route  to the supplier is calculated.
 
-This C++ program manages inventory using a hash table data structure provided by the C++ Standard Template Library (STL). It allows users to add, remove, update quantity, and display inventory items efficiently.
+Supplier info (Hash Table) :
+Key: Unique Supplier ID (efficient to fetch)
+Values:
+Contact Information (Name, Address, Phone, Email)
+Product Catalog (List of products offered with details)
+Lead Time (Average time to fulfil an order)
+Foreign Key to Quality Records Table (reference for detailed quality data)
 
-## Features
+Information Retrieval:
+Use the supplier ID from the ML model output to directly access the main table in the hash table for quick retrieval of contact information, product catalogue, and lead time.
 
-- **Add Item**: Add new items to the inventory along with their details such as name, quantity, date of manufacture, shelf life, and condition to store in.
-- **Remove Item**: Remove items from the inventory by specifying their name.
-- **Update Quantity**: Update the quantity of existing items in the inventory.
-- **Display Inventory**: Display all items in the inventory along with their details.
+Route Calculation:
+Algorithm: A* Search with a Priority Queue
+This algorithm balances distance (heuristic) and actual travelled distance to find the fastest route.
 
-## Code Structure
+Implementation:
 
-- The program defines a `InventoryItem` struct to represent each inventory item, which includes fields for name, quantity, date of manufacture, shelf life, and condition to store in.
-- It also defines a `InventoryManager` class to manage the inventory, with member functions for adding, removing, updating quantity, and displaying inventory items.
-- The `getCurrentDateAsString()` function is a helper function to get the current date as a string, which is used to initialize the date of manufacture for new items.
+-Create a graph data structure to store supplier locations and connecting routes.
+-Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
+-Use a priority queue to prioritize nodes based on a combination of the actual distance travelled and the heuristic estimate (total cost).
+-Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
+-Maintain a "closed list" of already visited nodes to avoid revisiting them.
+-The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
