@@ -61,9 +61,9 @@ This system comprises several interconnected modules for streamlined supply chai
 * Supports supplier performance evaluation and risk assessments.
 ![supplier](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/f8adcad6-8794-49cb-96c4-a5fabd0495b2)
 
-#Supplier Selection: The machine learning model will predict  the best supplier based on market trends to be selected every week, and then the info is fetched and the best route  to the supplier is calculated.
+**Supplier Selection:** The machine learning model will predict  the best supplier based on market trends to be selected every week, and then the info is fetched and the best route  to the supplier is calculated.
 
-#Supplier info (Hash Table) :
+**Supplier info (Hash Table) :**
 Key: Unique Supplier ID (efficient to fetch)
 Values:
 Contact Information (Name, Address, Phone, Email)
@@ -71,14 +71,14 @@ Product Catalog (List of products offered with details)
 Lead Time (Average time to fulfil an order)
 Foreign Key to Quality Records Table (reference for detailed quality data)
 
-#Information Retrieval:
+**Information Retrieval:**
 Use the supplier ID from the ML model output to directly access the main table in the hash table for quick retrieval of contact information, product catalogue, and lead time.
 
-#Route Calculation:
+**Route Calculation:**
 Algorithm: A* Search with a Priority Queue
 This algorithm balances distance (heuristic) and actual travelled distance to find the fastest route.
 
-#Implementation:
+**Implementation:**
 
 -Create a graph data structure to store supplier locations and connecting routes.
 -Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
@@ -95,7 +95,7 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 * Implements pricing models to optimize profitability.
 * Analyzes economic trends and forecasts for informed decision-making.
 * let us take an example of the beverage production 
-## Beverage Production Cost Management System
+### Beverage Production Cost Management System
 
 This design of a system for managing beverage production costs, including ingredients, production costs, and marketing costs.
 
