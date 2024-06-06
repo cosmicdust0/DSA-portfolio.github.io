@@ -1,30 +1,23 @@
+ # Modules 
 
-# Economics/Finances of the complete product flow
+-Ingredients: You can use a struct or a class to represent each ingredient, containing properties like name, cost per unit, and unit quantity needed per bottle.these all should be stored in data base .
 
-This C++ program implements an inventory management system with features for managing suppliers, transportation costs, and product flow economics. It utilizes a graph data structure to represent suppliers and their relationships, along with additional details stored in the `Supplier` struct.
+-Production Cost: A variable or a struct can store the cost per unit of production (e.g., cost of operating machinery, labour). these all should be stored in database
 
-## Data Structure Used
+-marketing cost: this will a database of the sources through which the company can advertise , we need to fetch the details and write the algo to find the best possible option  . eg billboard, tv , radio , posters , social media etc
 
-The program employs two main data structures:
-1. **Supplier Struct**: Represents details of each supplier, including:
-   - Name: Name of the supplier.
-   - Cost of Goods: Cost of goods provided by the supplier.
-   - Location: Location of the supplier.
-   - Contact Person: Contact person at the supplier's organization.
-   - Email: Email address of the supplier.
-   - Phone: Phone number of the supplier.
+# Implementation  of each module 
 
-2. **Graph Representation**: Suppliers are stored in a hash table (`unordered_map`), where each supplier is a node in the graph. Transportation costs between suppliers are represented as edges in the graph.
+Category Tree for Ingredients :If we have a hierarchical category structure for ingredients, a separate tree can represent these relationship between the different food materials .
+  
+Production Cost: this is done using the Hash map , with the multiple categories of the costs involved the fetch needs to be fast .
 
-## Functionalities
+marketing cost: we  can leverage a min-heap to find the cheapest advertising option based on target audience and reach requirements.
 
-The inventory management system provides the following functionalities:
-
-1. **Add Supplier**: Add a new supplier to the system with details such as name, cost of goods, location, contact person, email, and phone number.
-
-2. **Add Transportation Cost**: Specify transportation costs between suppliers to capture the economics of product flow. Transportation costs are associated with edges in the graph representation.
-
-3. **Display Suppliers**: Display the list of suppliers along with their details, including name, cost of goods, location, contact person, email, and phone number.
-
-4. **Display Transportation Costs**: Display the transportation costs between suppliers to understand the cost implications of product flow.
-
+Populate Marketing Channels: Define data for each marketing channel as before.
+Create MarketingChannelHeap: Create an instance of the MarketingChannelHeap class to store the channels.
+findLeastCostlyOption Function:
+Take the target audience and desired reach as arguments.
+Iterate through the marketing channels.
+Add each channel to the MarketingChannelHeap along with the desired reach, triggering calculation of the total cost within the addChannel function.
+Call extractCheapest on the heap to retrieve the channel with the lowest total cost.
