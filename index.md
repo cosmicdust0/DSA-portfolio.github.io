@@ -61,6 +61,32 @@ This system comprises several interconnected modules for streamlined supply chai
 * Supports supplier performance evaluation and risk assessments.
 ![supplier](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/f8adcad6-8794-49cb-96c4-a5fabd0495b2)
 
+Supplier Selection: The ML will predict  the best supplier based on market trends to be selected every week, and then the info is fetched and the best route  to the supplier is calculated.
+
+Supplier info (Hash Table) :
+
+Key: Unique Supplier ID (efficient to fetch)
+Values:
+Contact Information (Name, Address, Phone, Email)
+Product Catalog (List of products offered with details)
+Lead Time (Average time to fulfil an order)
+Foreign Key to Quality Records Table (reference for detailed quality data)
+
+Information Retrieval:
+Use the supplier ID from the ML model output to directly access the main table in the hash table for quick retrieval of contact information, product catalogue, and lead time.
+
+Route Calculation:
+Algorithm: A* Search with a Priority Queue
+This algorithm balances distance (heuristic) and actual travelled distance to find the fastest route.
+
+Implementation:
+-Create a graph data structure to store supplier locations and connecting routes.
+-Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
+-Use a priority queue to prioritize nodes based on a combination of the actual distance travelled and the heuristic estimate (total cost).
+-Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
+-Maintain a "closed list" of already visited nodes to avoid revisiting them.
+-The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
+
 **Here is the explanation and the sample code:**
 [ Raw materials Suppliers analysis and selection](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/be5e3a99e1c7355d1c9ac3430ebfd470b8077be8/Raw%20materials%20Suppliers%20analysis%20and%20selection)
 
@@ -73,26 +99,14 @@ This system comprises several interconnected modules for streamlined supply chai
   **Here is the explanation and the sample code:**
   [Economics/Finances of the complete product flow](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/cc09a89ca8e91c833ee20bcc991d91f914c2ca08/EconomicsFinances%20of%20the%20complete%20product%20flow)
 
-**3. Storage for raw materials, finished goods and other consumables:**
+**3. Storage for raw materials  finished goods and other consumables:**
 
 * Tracks inventory levels across various storage facilities.
 * Optimizes inventory placement and allocation using appropriate data structures (e.g., graphs).
 * Implements inventory management strategies (FIFO, LIFO, Just-in-Time).
 ![storage](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/1a960c8b-6c59-4499-bea0-dd585316175c)
 
-**4. Production Strategies for efficient use of resources:**
-
-* Models production processes using appropriate algorithms (e.g., scheduling algorithms).
-* Optimizes production schedules to meet demand while minimizing costs and lead times.
-* Analyzes production capacity and potential bottlenecks.
-
-**5. Quality Control:**
-
-* Defines and implements quality control procedures throughout the supply chain.
-* Tracks and analyzes quality metrics (defect rates, customer satisfaction).
-* Identifies potential quality issues and suggests corrective actions.
-
-**6. Logistics management for maximised suitability and profits:**
+**4. Logistics management for maximised suitability and profits:**
 
 * Optimizes transportation routes and modes (e.g., using shortest path algorithms).
 * Forecasts delivery times and manages logistics costs.
