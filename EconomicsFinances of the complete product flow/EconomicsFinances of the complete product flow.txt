@@ -1,23 +1,62 @@
- # Modules 
+## Beverage Production Cost Management System
 
--Ingredients: You can use a struct or a class to represent each ingredient, containing properties like name, cost per unit, and unit quantity needed per bottle.these all should be stored in data base .
+This document outlines the design of a system for managing beverage production costs, including ingredients, production costs, and marketing costs.
 
--Production Cost: A variable or a struct can store the cost per unit of production (e.g., cost of operating machinery, labour). these all should be stored in database
+### Modules
 
--marketing cost: this will a database of the sources through which the company can advertise , we need to fetch the details and write the algo to find the best possible option  . eg billboard, tv , radio , posters , social media etc
+The system consists of three main modules:
 
-# Implementation  of each module 
+1. **Ingredients:**
+    - **Data Structure:** Struct/Class representing an ingredient.
+    - **Properties:**
+        - Name (string)
+        - Cost per unit (double)
+        - Unit quantity needed per bottle (double)
+    - **Storage:** Database
+2. **Production Cost:**
+    - **Data Structure:** Struct/Class (optional) or variable.
+    - **Properties:**
+        - Cost per unit of production (e.g., machinery operation, labor) (double)
+    - **Storage:** Database
+3. **Marketing Cost:**
+    - **Data Structure:** `MarketingChannel` class and `MarketingChannelHeap` class.
+    - **`MarketingChannel` Class:**
+        - Properties:
+            - Name (string)
+            - Cost per reach (double)
+            - Minimum reach (double)
+            - Target audiences (optional: vector<string>)
+            - Total cost (double) (calculated dynamically)
+    - **`MarketingChannelHeap` Class:**
+        - Min-heap implementation for efficient retrieval of the cheapest advertising option.
+    - **Storage:** Database for channel details.
 
-Category Tree for Ingredients :If we have a hierarchical category structure for ingredients, a separate tree can represent these relationship between the different food materials .
-  
-Production Cost: this is done using the Hash map , with the multiple categories of the costs involved the fetch needs to be fast .
+### Category Tree for Ingredients (Optional)
 
-marketing cost: we  can leverage a min-heap to find the cheapest advertising option based on target audience and reach requirements.
+- A separate tree structure can be implemented (e.g., using a trie or a graph) to represent hierarchical relationships between ingredients (e.g., fruits, vegetables, grains).
 
-Populate Marketing Channels: Define data for each marketing channel as before.
-Create MarketingChannelHeap: Create an instance of the MarketingChannelHeap class to store the channels.
-findLeastCostlyOption Function:
-Take the target audience and desired reach as arguments.
-Iterate through the marketing channels.
-Add each channel to the MarketingChannelHeap along with the desired reach, triggering calculation of the total cost within the addChannel function.
-Call extractCheapest on the heap to retrieve the channel with the lowest total cost.
+###Implemented Features
+**Ingredients**
+
+**Storage:** Ingredient data (name, cost per unit, unit quantity) is stored securely in a database table. (#database)
+**Management Functions:**
+-Add Ingredient: Add new ingredients to the system, expanding the available ingredient list.
+-Edit Ingredient: Modify existing ingredient information to reflect changes in price or other details.
+-Delete Ingredient: Remove ingredients from the system, considering appropriate safeguards to prevent accidental deletion of critical data.
+**Production Cost**
+
+**Storage Options: **The system offers flexibility for production cost storage:
+**Database Table: **Production cost per unit (machinery, labor) can be stored in a dedicated database table for structured data management. (Optional) (#database)
+**Single Variable:** If the production cost is a static value, a single variable can hold this information for simpler access.
+**Update Function: **A function allows updating the production cost in the database (if applicable) to reflect changes in operational expenses.
+**Marketing Cost**
+
+**Channel Data Storage:** Marketing channel details (name, cost per reach, minimum reach, target audiences) are stored in a database table for efficient management. (#database)
+Management Functions:
+-Add Channel: Introduce new marketing channels to the system, expanding advertising options.
+-Edit Channel: Modify existing marketing channel information to adapt to changing advertising strategies or costs.
+-Delete Channel: Remove marketing channels from the system, considering safeguards to prevent unintended deletion.
+**Cheapest Option Identification: **The system utilizes a MarketingChannelHeap class to efficiently find the most cost-effective advertising option based on target audience and desired reach.
+-Existing marketing channels are retrieved from the database and populated into the MarketingChannelHeap.
+-When searching for the cheapest option, the system calculates the total cost for each channel based on the desired reach, considering minimum reach and cost per reach.
+-The extractCheapest function of the MarketingChannelHeap efficiently retrieves the channel with the lowest total cost, aiding in budget-conscious advertising decisions.
