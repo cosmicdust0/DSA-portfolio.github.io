@@ -1,8 +1,20 @@
-## Beverage Production Cost Management System
-
-This document outlines the design of a system for managing beverage production costs, including ingredients, production costs, and marketing costs.
-
 ### Modules
+
+**Ingredients**: You can use a struct or a class to represent each ingredient, containing properties like name, cost per unit, and unit quantity needed per bottle. These all should be stored in the database.
+
+**Production Cost**: A variable or a struct can store the cost per unit of production (e.g., cost of operating machinery, labour). these all should be stored in a database
+
+**Marketing cost:** This will be a database of the sources through which the company can advertise, we need to fetch the details and write the algo to find the best possible option. eg billboard, TV, radio, posters, social media etc
+
+Implementation of each module 
+
+Category Tree for Ingredients: If we have a hierarchical category structure for ingredients, a separate tree can represent this relationship between the different food materials.
+  
+Production Cost: this is done using the Hash map , with the multiple categories of the costs involved the fetch needs to be fast.
+
+marketing cost: we can leverage a min-heap to find the cheapest advertising option based on target audience and reach requirements.
+
+
 
 The system consists of three main modules:
 
@@ -16,7 +28,7 @@ The system consists of three main modules:
 2. **Production Cost:**
     - **Data Structure:** Struct/Class (optional) or variable.
     - **Properties:**
-        - Cost per unit of production (e.g., machinery operation, labor) (double)
+        - Cost per unit of production (e.g., machinery operation, labour) (double)
     - **Storage:** Database
 3. **Marketing Cost:**
     - **Data Structure:** `MarketingChannel` class and `MarketingChannelHeap` class.
@@ -46,7 +58,7 @@ The system consists of three main modules:
 **Production Cost**
 
 **Storage Options: **The system offers flexibility for production cost storage:
-**Database Table: **Production cost per unit (machinery, labor) can be stored in a dedicated database table for structured data management. (Optional) (#database)
+**Database Table: **Production cost per unit (machinery, labour) can be stored in a dedicated database table for structured data management. (Optional) (#database)
 **Single Variable:** If the production cost is a static value, a single variable can hold this information for simpler access.
 **Update Function: **A function allows updating the production cost in the database (if applicable) to reflect changes in operational expenses.
 **Marketing Cost**
