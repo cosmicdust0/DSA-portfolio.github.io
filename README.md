@@ -74,19 +74,8 @@ This system comprises several interconnected modules for streamlined supply chai
 * Optimizes inventory placement and allocation using appropriate data structures (e.g., graphs).
 * Implements inventory management strategies (FIFO, LIFO, Just-in-Time).
 
-**4. Production Strategies for efficient use of resources:**
 
-* Models production processes using appropriate algorithms (e.g., scheduling algorithms).
-* Optimizes production schedules to meet demand while minimizing costs and lead times.
-* Analyzes production capacity and potential bottlenecks.
-
-**5. Quality Control:**
-
-* Defines and implements quality control procedures throughout the supply chain.
-* Tracks and analyzes quality metrics (defect rates, customer satisfaction).
-* Identifies potential quality issues and suggests corrective actions.
-
-**6. Logistics management for maximised suitability and profits:**
+**4. Logistics management for maximised suitability and profits:**
 
 * Optimizes transportation routes and modes (e.g., using shortest path algorithms).
 * Forecasts delivery times and manages logistics costs.
