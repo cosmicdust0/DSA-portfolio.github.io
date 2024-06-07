@@ -13,7 +13,16 @@
 # Project Description:
 This project demonstrates the application of data structures and algorithms (DSA) and ML to optimize a specific aspect of supply chain management, such as inventory management, logistics planning, or route optimization. 
 
-# Goals:
+### Contents 
+
+1. [Goals](#Goals)
+2. [DSA involved](#DSA)
+3. [Technology Stack](#Technology_Stack)
+4. [ Modules to be integrated ](#Modules)
+5. [Functionalities](#Functionalities)
+
+
+# Goals:<a name="Goals"></a>
 ## Skills Development
 
 * **Data Structures and Algorithms (DSA) Proficiency:**
@@ -44,7 +53,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 
  
 
-# DSA involved:
+# DSA involved:<a name="DSA"></a>
 This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
 
   * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A*,  Dijkstra's algorithms etc.
@@ -54,13 +63,13 @@ This project utilizes various DSA techniques to enhance efficiency and decision-
 By incorporating DSA principles, my project aims to achieve significant improvements in  cost savings, delivery speed, and customer satisfaction.
 
 
-# Technology Stack:
+# Technology Stack:<a name="Technology_Stack"></a>
 
 * Programming language(s): (e.g., Python, Javascript )
 * Libraries/Frameworks: (e.g., Django, React )
 
 
-## Modules to be integrated 
+## Modules to be integrated <a name="Modules"></a>
 
 This system comprises several interconnected modules for streamlined supply chain management:
 
@@ -109,7 +118,7 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 
 This design of a system for managing beverage production costs, including ingredients, production costs, and marketing costs.
 
-### Modules
+### Sub-Modules
 
 The system consists of three main modules:
 
@@ -183,7 +192,7 @@ The system consists of three main modules:
 * Tracks shipment status and provides real-time updates.
 ![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
 
-## Functionalities
+## Functionalities<a name="Functionalities"></a>
 
 This system empowers businesses with a range of functionalities to enhance supply chain performance:
 
