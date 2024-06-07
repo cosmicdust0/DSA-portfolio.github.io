@@ -80,6 +80,8 @@ This system comprises several interconnected modules for streamlined supply chai
 * Manages supplier data (contact information, product catalogues, lead times, quality records).
 * Enables searching and filtering suppliers based on various criteria.
 * Supports supplier performance evaluation and risk assessments.
+
+  
 ![photo_2024-06-07_23-43-38](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/0836c129-68b6-4b61-8d23-e780ecabc3b9)
 
 
@@ -118,6 +120,8 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 * Implements pricing models to optimize profitability.
 * Analyzes economic trends and forecasts for informed decision-making.
 * let us take an example of the beverage production
+
+  
 ![photo_2024-06-07_23-43-27](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/008a7f3d-3da1-436e-8fc3-7c55741a6833)
 
 ### Beverage Production Cost Management System
@@ -187,9 +191,15 @@ The system consists of three main modules:
 * Tracks inventory levels across various storage facilities.
 * Optimizes inventory placement and allocation using appropriate data structures (e.g., graphs).
 * Implements inventory management strategies (FIFO, LIFO, Just-in-Time).
+
+  
 ![storage](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/1a960c8b-6c59-4499-bea0-dd585316175c)
+
+
 ![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
-**Products:**
+
+
+**1.Products:**
 Data Structure: AVL/Red-Black Tree (RBT)
 Efficient search (O(log n)) for product information based on ID or name is crucial for placement and retrieval. AVL/RBTs ensure balanced insertion and deletion, maintaining efficient lookup performance.
 
@@ -197,17 +207,17 @@ Key-Value Pairs:
 Key: Product ID (unique identifier)
 Value: Product object containing details (name, demand prediction, location, stock level, etc.)
 
-**Warehouse Layout:**
+**2.Warehouse Layout:**
 
 * Data Structure: Directed Acyclic Graph (DAG)
 
 * Rationale: The warehouse layout can be modelled as a DAG, where nodes represent storage units (shelves, bins) and directed edges represent feasible movement paths. A DAG is suitable because movement is typically one-directional within the warehouse.
 
--Nodes: Warehouse storage units (shelves, bins) with attributes like capacity, available space, and product type suitability.
+  -Nodes: Warehouse storage units (shelves, bins) with attributes like capacity, available space, and product type suitability.
 
--Edges: Directed connections between storage units representing feasible movement paths.
+  -Edges: Directed connections between storage units representing feasible movement paths.
 
-**Inventory Management:**
+**3.Inventory Management:**
 * Data Structure: Hash Tables (Just-in-Time)
 
 * Algorithms:
