@@ -19,7 +19,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 2. [DSA involved](#DSAinvolved)
 3. [Technology Stack](#Technology_Stack)
 4. [ Modules to be integrated ](#Modules)
-5. [Functionalities](#Functionalities)
+5. [Functionalities that I would like to improve/include ](#Functionalities)
 
 
 # Goals<a name="Goals"></a>
@@ -190,9 +190,9 @@ The system consists of three main modules:
 ![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
 
 
-## Functionalities<a name="Functionalities"></a>
+## Functionalities that I would like to improve on <a name="Functionalities"></a>
 
-This system empowers businesses with a range of functionalities to enhance supply chain performance:
+This section will empower businesses with a range of functionalities to enhance supply chain performance:
 
 **1. Analysis (Charts):**
 
@@ -200,25 +200,20 @@ This system empowers businesses with a range of functionalities to enhance suppl
 * Provides data analysis dashboards to monitor trends and identify areas for improvement.
 * Uses data structures (e.g., trees) to facilitate efficient data organization and retrieval for visualization creation.
 
-**2. Searching, Sorting (Data Structures):**
 
-* Enables efficient searching of supplier data, inventory items, and historical records using appropriate data structures (e.g., hash tables, search trees).
-* Implements sorting algorithms (e.g., merge sort, quick sort) to organize data efficiently based on various sorting criteria (price, availability, lead time).
-* Data structures optimize search and sorting time complexity, leading to faster queries and better user experience.
-
-**3. Prediction(ML):**
+**2. Prediction(ML):**
 
 * Integrates machine learning models or forecasting techniques to predict future demand, supply disruptions, and potential quality issues.
 * Utilizes historical data (stored efficiently using data structures like arrays and linked lists) to train prediction models.
 * Predictions enable proactive decision-making and inventory management.
 
-**4. Management(frontend Dashboard):**
+**3. Management(frontend Dashboard):**
 
 * Provides tools to manage suppliers, inventory, production schedules, quality control processes, and logistics operations.
 * Integrates appropriate data structures and algorithms to support efficient management tasks (e.g., priority queues for order fulfilment).
 * Streamlines supply chain operations for improved efficiency.
 
-**5. Calculations:**
+**4. Calculations:**
 
 * Offers functionalities to calculate costs, delivery times, lead times, resource usage, and other relevant metrics.
 * Leverages algorithms (e.g., dynamic programming for some calculations) to optimize performance and accuracy.
