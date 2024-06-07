@@ -108,6 +108,7 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 * Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
 * Maintain a "closed list" of already visited nodes to avoid revisiting them.
 * The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
+### Code
 **Here is the explanation and the sample code:**
 [ Raw materials Suppliers analysis and selection](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/be5e3a99e1c7355d1c9ac3430ebfd470b8077be8/Raw%20materials%20Suppliers%20analysis%20and%20selection)
 
@@ -177,9 +178,7 @@ The system consists of three main modules:
     - Calculate the total cost for each channel based on the desired reach.
     - Use the `extractCheapest` function of the `MarketingChannelHeap` to find the channel with the lowest total cost.
 
-
-
-  
+### Code
   **Here is the explanation and the sample code:**
   [Economics/Finances of the complete product flow](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/cc09a89ca8e91c833ee20bcc991d91f914c2ca08/EconomicsFinances%20of%20the%20complete%20product%20flow)
 
@@ -191,6 +190,9 @@ The system consists of three main modules:
 ![storage](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/1a960c8b-6c59-4499-bea0-dd585316175c)
 ![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
 
+### Code
+**Here is the explanation and the sample code:**
+[Storage for raw materials  finished goods and other consumables](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/31065290cd36d99679e9b770bfdc2c5f52061dd2/Storage%20for%20raw%20material)
 
 ## Functionalities that I would like to improve on <a name="Functionalities"></a>
 
