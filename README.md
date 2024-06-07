@@ -1,5 +1,4 @@
 # Supply Chain Optimization with DSA
-
 https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/e0c1b077-40b9-4395-95c0-9b47e41e1ae9
 
 <dl>
@@ -22,7 +21,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 2. [DSA involved](#DSAinvolved)
 3. [Technology Stack](#Technology_Stack)
 4. [ Modules to be integrated ](#Modules)
-5. [Functionalities](#Functionalities)
+5. [Functionalities that I would like to improve/include ](#Functionalities)
 
 
 # Goals<a name="Goals"></a>
@@ -81,7 +80,8 @@ This system comprises several interconnected modules for streamlined supply chai
 * Manages supplier data (contact information, product catalogues, lead times, quality records).
 * Enables searching and filtering suppliers based on various criteria.
 * Supports supplier performance evaluation and risk assessments.
-![supplier](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/f8adcad6-8794-49cb-96c4-a5fabd0495b2)
+![photo_2024-06-07_23-43-38](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/0836c129-68b6-4b61-8d23-e780ecabc3b9)
+
 
 **Supplier Selection:** The machine learning model will predict  the best supplier based on market trends to be selected every week, and then the info is fetched and the best route  to the supplier is calculated.
 
@@ -116,7 +116,9 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 * Handles cost calculations (raw materials, production, transportation, storage).
 * Implements pricing models to optimize profitability.
 * Analyzes economic trends and forecasts for informed decision-making.
-* let us take an example of the beverage production 
+* let us take an example of the beverage production
+![photo_2024-06-07_23-43-27](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/008a7f3d-3da1-436e-8fc3-7c55741a6833)
+
 ### Beverage Production Cost Management System
 
 This design of a system for managing beverage production costs, including ingredients, production costs, and marketing costs.
@@ -187,17 +189,12 @@ The system consists of three main modules:
 * Optimizes inventory placement and allocation using appropriate data structures (e.g., graphs).
 * Implements inventory management strategies (FIFO, LIFO, Just-in-Time).
 ![storage](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/1a960c8b-6c59-4499-bea0-dd585316175c)
-
-**4. Logistics management for maximised suitability and profits:**
-
-* Optimizes transportation routes and modes (e.g., using shortest path algorithms).
-* Forecasts delivery times and manages logistics costs.
-* Tracks shipment status and provides real-time updates.
 ![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
 
-## Functionalities<a name="Functionalities"></a>
 
-This system empowers businesses with a range of functionalities to enhance supply chain performance:
+## Functionalities that I would like to improve on <a name="Functionalities"></a>
+
+This section will empower businesses with a range of functionalities to enhance supply chain performance:
 
 **1. Analysis (Charts):**
 
@@ -205,25 +202,20 @@ This system empowers businesses with a range of functionalities to enhance suppl
 * Provides data analysis dashboards to monitor trends and identify areas for improvement.
 * Uses data structures (e.g., trees) to facilitate efficient data organization and retrieval for visualization creation.
 
-**2. Searching, Sorting (Data Structures):**
 
-* Enables efficient searching of supplier data, inventory items, and historical records using appropriate data structures (e.g., hash tables, search trees).
-* Implements sorting algorithms (e.g., merge sort, quick sort) to organize data efficiently based on various sorting criteria (price, availability, lead time).
-* Data structures optimize search and sorting time complexity, leading to faster queries and better user experience.
-
-**3. Prediction(ML):**
+**2. Prediction(ML):**
 
 * Integrates machine learning models or forecasting techniques to predict future demand, supply disruptions, and potential quality issues.
 * Utilizes historical data (stored efficiently using data structures like arrays and linked lists) to train prediction models.
 * Predictions enable proactive decision-making and inventory management.
 
-**4. Management(frontend Dashboard):**
+**3. Management(frontend Dashboard):**
 
 * Provides tools to manage suppliers, inventory, production schedules, quality control processes, and logistics operations.
 * Integrates appropriate data structures and algorithms to support efficient management tasks (e.g., priority queues for order fulfilment).
 * Streamlines supply chain operations for improved efficiency.
 
-**5. Calculations:**
+**4. Calculations:**
 
 * Offers functionalities to calculate costs, delivery times, lead times, resource usage, and other relevant metrics.
 * Leverages algorithms (e.g., dynamic programming for some calculations) to optimize performance and accuracy.
