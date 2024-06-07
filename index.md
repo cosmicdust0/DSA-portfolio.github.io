@@ -1,4 +1,5 @@
 # Supply Chain Optimization with DSA
+
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
@@ -18,8 +19,8 @@ This project demonstrates the application of data structures and algorithms (DSA
 1. [Goals](#Goals)
 2. [DSA involved](#DSAinvolved)
 3. [Technology Stack](#Technology_Stack)
-4. [ Modules to be integrated ](#Modules)
-5. [Functionalities that I would like to improve/include ](#Functionalities)
+4. [ Modules of a supply chain ](#Modules)
+5. [Extra functionalities that I would like to improve/include ](#Functionalities)
 
 
 # Goals<a name="Goals"></a>
@@ -69,7 +70,7 @@ By incorporating DSA principles, my project aims to achieve significant improvem
 * Libraries/Frameworks: (e.g., Django, React )
 
 
-## Modules to be integrated<a name="Modules"></a>
+## Modules of a supply chain <a name="Modules"></a>
 
 This system comprises several interconnected modules for streamlined supply chain management:
 
@@ -78,6 +79,8 @@ This system comprises several interconnected modules for streamlined supply chai
 * Manages supplier data (contact information, product catalogues, lead times, quality records).
 * Enables searching and filtering suppliers based on various criteria.
 * Supports supplier performance evaluation and risk assessments.
+
+  
 ![photo_2024-06-07_23-43-38](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/0836c129-68b6-4b61-8d23-e780ecabc3b9)
 
 
@@ -100,12 +103,13 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 
 **Implementation:**
 
--Create a graph data structure to store supplier locations and connecting routes.
--Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
--Use a priority queue to prioritize nodes based on a combination of the actual distance travelled and the heuristic estimate (total cost).
--Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
--Maintain a "closed list" of already visited nodes to avoid revisiting them.
--The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
+* Create a graph data structure to store supplier locations and connecting routes.
+* Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
+* Use a priority queue to prioritize nodes based on a combination of the actual distance travelled and the heuristic estimate (total cost).
+* Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
+* Maintain a "closed list" of already visited nodes to avoid revisiting them.
+* The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
+### Code implementation
 **Here is the explanation and the sample code:**
 [ Raw materials Suppliers analysis and selection](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/be5e3a99e1c7355d1c9ac3430ebfd470b8077be8/Raw%20materials%20Suppliers%20analysis%20and%20selection)
 
@@ -115,6 +119,8 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 * Implements pricing models to optimize profitability.
 * Analyzes economic trends and forecasts for informed decision-making.
 * let us take an example of the beverage production
+
+  
 ![photo_2024-06-07_23-43-27](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/008a7f3d-3da1-436e-8fc3-7c55741a6833)
 
 ### Beverage Production Cost Management System
@@ -175,9 +181,7 @@ The system consists of three main modules:
     - Calculate the total cost for each channel based on the desired reach.
     - Use the `extractCheapest` function of the `MarketingChannelHeap` to find the channel with the lowest total cost.
 
-
-
-  
+### Code implementation
   **Here is the explanation and the sample code:**
   [Economics/Finances of the complete product flow](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/cc09a89ca8e91c833ee20bcc991d91f914c2ca08/EconomicsFinances%20of%20the%20complete%20product%20flow)
 
@@ -186,9 +190,55 @@ The system consists of three main modules:
 * Tracks inventory levels across various storage facilities.
 * Optimizes inventory placement and allocation using appropriate data structures (e.g., graphs).
 * Implements inventory management strategies (FIFO, LIFO, Just-in-Time).
+
+  
 ![storage](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/1a960c8b-6c59-4499-bea0-dd585316175c)
+
+
 ![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
 
+
+**1.Products:**
+Data Structure: AVL/Red-Black Tree (RBT)
+Efficient search (O(log n)) for product information based on ID or name is crucial for placement and retrieval. AVL/RBTs ensure balanced insertion and deletion, maintaining efficient lookup performance.
+
+Key-Value Pairs:
+Key: Product ID (unique identifier)
+Value: Product object containing details (name, demand prediction, location, stock level, etc.)
+
+**2.Warehouse Layout:**
+
+* Data Structure: Directed Acyclic Graph (DAG)
+
+* Rationale: The warehouse layout can be modelled as a DAG, where nodes represent storage units (shelves, bins) and directed edges represent feasible movement paths. A DAG is suitable because movement is typically one-directional within the warehouse.
+
+  -Nodes: Warehouse storage units (shelves, bins) with attributes like capacity, available space, and product type suitability.
+
+  -Edges: Directed connections between storage units representing feasible movement paths.
+
+**3.Inventory Management:**
+* Data Structure: Hash Tables (Just-in-Time)
+
+* Algorithms:
+Product Placement: A* Search (informed search)
+
+**Implementation:**
+ A* prioritizes search paths based on a heuristic that estimates the remaining distance (cost) to the goal location predicted by the ML model. This ensures efficient placement within the warehouse layout DAG, minimizing travel time.
+
+* Cost Function: Combines movement distance (e.g., Manhattan distance) between storage units in the warehouse layout DAG and a penalty for exceeding capacity constraints.
+Heuristic: Estimates remaining distance to the ML-predicted location based on product attributes (e.g., demand, size, weight).
+
+**Hybrid Approach:**
+A hybrid approach that leverages both algorithms:
+
+* Initial Search with DFS: Start with a quick DFS search to explore potential paths from the current location.
+BFS (Optional): If the initial DFS search doesn't find the product within a reasonable timeframe, switch to BFS to guarantee finding the shortest path.
+This hybrid approach offers a balance between speed and efficiency.  The threshold for switching to BFS based on your specific warehouse setup and retrieval needs.
+
+
+### Code implementation
+**Here is the explanation and the sample code:**
+[Storage for raw materials  finished goods and other consumables](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/31065290cd36d99679e9b770bfdc2c5f52061dd2/Storage%20for%20raw%20material)
 
 ## Functionalities that I would like to improve on <a name="Functionalities"></a>
 
@@ -226,4 +276,3 @@ This section will empower businesses with a range of functionalities to enhance 
 **Author:**
 
 * Ravishankar Bevinal 
-
