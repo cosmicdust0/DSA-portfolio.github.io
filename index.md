@@ -57,7 +57,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
 
   * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A*,  Dijkstra's algorithms etc.
-  * Queues can be used to model inventory flow, ensuring First-In-First-Out (FIFO) or other inventory management strategies.
+  *  Hash maps, trees and queues can be used to model inventory flow, ensuring First-In-First-Out (FIFO) or other inventory management strategies.
   * Sorting algorithms can be applied to prioritize orders or shipments based on urgency, cost, or other criteria.
 
 By incorporating DSA principles, my project aims to achieve significant improvements in  cost savings, delivery speed, and customer satisfaction.
@@ -82,7 +82,7 @@ This system comprises several interconnected modules for streamlined supply chai
 
 **Supplier Selection:** The machine learning model will predict  the best supplier based on market trends to be selected every week, and then the info is fetched and the best route  to the supplier is calculated.
 
-**Supplier info (Hash Table) :**
+**Supplier info (Hash Table):**
 Key: Unique Supplier ID (efficient to fetch)
 Values:
 Contact Information (Name, Address, Phone, Email)
