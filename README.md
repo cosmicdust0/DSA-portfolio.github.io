@@ -20,8 +20,8 @@ This project demonstrates the application of data structures and algorithms (DSA
 1. [Goals](#Goals)
 2. [DSA involved](#DSAinvolved)
 3. [Technology Stack](#Technology_Stack)
-4. [ Modules to be integrated ](#Modules)
-5. [Functionalities that I would like to improve/include ](#Functionalities)
+4. [ Modules of a supply chain ](#Modules)
+5. [Extra functionalities that I would like to improve/include ](#Functionalities)
 
 
 # Goals<a name="Goals"></a>
@@ -71,7 +71,7 @@ By incorporating DSA principles, my project aims to achieve significant improvem
 * Libraries/Frameworks: (e.g., Django, React )
 
 
-## Modules to be integrated<a name="Modules"></a>
+## Modules of a supply chain <a name="Modules"></a>
 
 This system comprises several interconnected modules for streamlined supply chain management:
 
@@ -102,12 +102,12 @@ This algorithm balances distance (heuristic) and actual travelled distance to fi
 
 **Implementation:**
 
--Create a graph data structure to store supplier locations and connecting routes.
--Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
--Use a priority queue to prioritize nodes based on a combination of the actual distance travelled and the heuristic estimate (total cost).
--Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
--Maintain a "closed list" of already visited nodes to avoid revisiting them.
--The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
+* Create a graph data structure to store supplier locations and connecting routes.
+* Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
+* Use a priority queue to prioritize nodes based on a combination of the actual distance travelled and the heuristic estimate (total cost).
+* Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
+* Maintain a "closed list" of already visited nodes to avoid revisiting them.
+* The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
 **Here is the explanation and the sample code:**
 [ Raw materials Suppliers analysis and selection](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/be5e3a99e1c7355d1c9ac3430ebfd470b8077be8/Raw%20materials%20Suppliers%20analysis%20and%20selection)
 
