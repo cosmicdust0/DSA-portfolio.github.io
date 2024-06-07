@@ -2,10 +2,13 @@
 
 **Course Name**
 Algorithmic Problem Solving
+
 **Course Code**
 23ECSE309
+
 **Name**
 Ravishankar S Bevinal
+
 **University**
 KLE Technological University, Hubballi-31
 
