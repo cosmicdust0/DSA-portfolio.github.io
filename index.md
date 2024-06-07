@@ -22,7 +22,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 5. [Functionalities](#Functionalities)
 
 
-# Goals:<a name="Goals"></a>
+# Goals<a name="Goals"></a>
 ## Skills Development
 
 * **Data Structures and Algorithms (DSA) Proficiency:**
@@ -53,7 +53,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 
  
 
-# DSA involved: <a name="DSAinvolved"></a>
+# DSA involved<a name="DSAinvolved"></a>
 This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
 
   * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A*,  Dijkstra's algorithms etc.
@@ -63,13 +63,13 @@ This project utilizes various DSA techniques to enhance efficiency and decision-
 By incorporating DSA principles, my project aims to achieve significant improvements in  cost savings, delivery speed, and customer satisfaction.
 
 
-# Technology Stack:<a name="Technology_Stack"></a>
+# Technology Stack<a name="Technology_Stack"></a>
 
 * Programming language(s): (e.g., Python, Javascript )
 * Libraries/Frameworks: (e.g., Django, React )
 
 
-## Modules to be integrated <a name="Modules"></a>
+## Modules to be integrated<a name="Modules"></a>
 
 This system comprises several interconnected modules for streamlined supply chain management:
 
