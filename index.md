@@ -1,20 +1,14 @@
 # Supply Chain Optimization with DSA
-
-**Course Name**
-
-  Algorithmic Problem Solving
-
-**Course Code**
-
-  23ECSE309
-
-**Name**
-
-  Ravishankar S Bevinal
-
-**University**
-
-  KLE Technological University, Hubballi-31
+<dl>
+<dt>Course Name</dt>
+<dd>Algorithmic Problem Solving</dd>
+<dt>Course Code</dt>
+<dd>23ECSE309</dd>
+<dt>Name</dt>
+<dd>Ravishankar S Bevinal</dd>
+<dt>University</dt>
+<dd>KLE Technological University, Hubballi-31</dd>
+</dl>
 
 # Project Description:
 This project demonstrates the application of data structures and algorithms (DSA) and ML to optimize a specific aspect of supply chain management, such as inventory management, logistics planning, or route optimization. 
