@@ -16,7 +16,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 ### Contents 
 
 1. [Goals](#Goals)
-2. [DSA involved](#DSA)
+2. [DSA involved](#DSAinvolved)
 3. [Technology Stack](#Technology_Stack)
 4. [ Modules to be integrated ](#Modules)
 5. [Functionalities](#Functionalities)
@@ -53,7 +53,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 
  
 
-# DSA involved:<a name="DSA"></a>
+# DSA involved: <a name="DSAinvolved"></a>
 This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
 
   * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A*,  Dijkstra's algorithms etc.
