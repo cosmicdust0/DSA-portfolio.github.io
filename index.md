@@ -104,8 +104,8 @@ Description
   - **Exponential Smoothing**: For time series forecasting.
     - **Time Complexity**: O(n), where n is the number of historical data points.
     - **Space Complexity**: O(1), as it only needs to store a few parameters.
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/63af577a-a6b5-435e-b75a-cbe0fc3e8ecb)
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/01f7a226-b78f-413f-b264-11764eb57520)
 
 
 
@@ -217,7 +217,7 @@ Description
     - **Space Complexity**: O(n), for storing simulation results.
 
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/394e0b5f-811d-4e5a-843c-819890b12d8f)
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/8f173158-6562-4b37-aff1-e6a2279088af)
 
 
 Code Implementation
@@ -475,7 +475,7 @@ Description
       * **Space Complexity**: O(n), for storing the skip list.
 
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/abe3d862-38c0-4552-aa78-a5fd4de28e5d)
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/6f2b523f-dc27-469d-a3bf-89d01dcdcbdc)
 
 
 Code Implementation
