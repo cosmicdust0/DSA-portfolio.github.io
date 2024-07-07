@@ -104,21 +104,27 @@ This project demonstrates the application of data structures and algorithms (DSA
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/inventory_optimization.cpp)
 
 
-## Supplier Performance Tracking System
-
-**Description**: A system that monitors, evaluates, and ranks supplier performance based on multiple criteria such as quality, on-time delivery, and cost.
-* **Challenges**: Integrating diverse data sources, maintaining data accuracy, providing real-time insights.
-* **Market Benefits**: Improved supplier relationships, reduced supply chain risks, better negotiation position.
-* **Design Techniques and Algorithms**:
-   * **Red-Black Trees**: For efficient insertion, deletion, and retrieval of supplier performance data.
-      * **Time Complexity**: O(log n) for insert, delete, and search operations, where n is the number of suppliers.
-      * **Space Complexity**: O(n), for storing the tree.
-   * **Heap**: For maintaining a priority queue of suppliers based on performance scores.
-      * **Time Complexity**: O(log n) for insert and delete-max operations, where n is the number of suppliers.
-      * **Space Complexity**: O(n), for storing the heap.
+# Supplier Performance Tracking System
 
 <details>
-<summary>Code implementation</summary>
+<summary>Description</summary>
+
+**A system that monitors, evaluates, and ranks supplier performance based on multiple criteria such as quality, on-time delivery, and cost.**
+
+- **Challenges**: Integrating diverse data sources, maintaining data accuracy, providing real-time insights.
+- **Market Benefits**: Improved supplier relationships, reduced supply chain risks, better negotiation position.
+- **Design Techniques and Algorithms**:
+  - **Red-Black Trees**: For efficient insertion, deletion, and retrieval of supplier performance data.
+    - **Time Complexity**: O(log n) for insert, delete, and search operations, where n is the number of suppliers.
+    - **Space Complexity**: O(n), for storing the tree.
+  - **Heap**: For maintaining a priority queue of suppliers based on performance scores.
+    - **Time Complexity**: O(log n) for insert and delete-max operations, where n is the number of suppliers.
+    - **Space Complexity**: O(n), for storing the heap.
+
+</details>
+
+<details>
+<summary>Code Implementation</summary>
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supplier_performance.cpp)
 
