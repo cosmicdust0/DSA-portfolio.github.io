@@ -216,6 +216,7 @@ Description
     - **Space Complexity**: O(n), for storing simulation results.
 
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/394e0b5f-811d-4e5a-843c-819890b12d8f)
 
 
 Code Implementation
@@ -269,6 +270,7 @@ Description
     - **Time Complexity**: O(k) for insert and search operations, where k is the length of the key.
     - **Space Complexity**: O(n * k), where n is the number of keys and k is the average key length.
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/559d2b15-1e20-425d-a068-b97d81004901)
 
 
 
@@ -296,6 +298,7 @@ Description
     - **Time Complexity**: O(log n) for search, insert, and delete operations, where n is the number of keys.
     - **Space Complexity**: O(n), for storing the tree.
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/6cf26b08-760c-454f-9d1d-faf58bc6b2e8)
 
 
 
@@ -323,6 +326,7 @@ Description
     - **Time Complexity**: O(1) for state transitions.
     - **Space Complexity**: O(s), where s is the number of possible states.
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/8a017d61-0526-4a76-9ebb-0d5c2e79ed77)
 
 
 
@@ -349,6 +353,7 @@ Description
    * **Integer Programming**: For solving complex network design optimization problems.
       * **Time Complexity**: Exponential in the worst case, but often practical for real-world problems with modern solvers.
       * **Space Complexity**: O(n * m), where n is the number of variables and m is the number of constraints.
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/9e4ec691-f6c5-4ece-b487-052eff790084)
 
 
 
@@ -380,6 +385,7 @@ Description
       * **Space Complexity**: O(m), where m is the number of nodes in the tree.
 
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/3fb6bc84-83ac-4b88-ba8d-d472b57466be)
 
 
 Code Implementation
@@ -409,6 +415,7 @@ Description
       * **Space Complexity**: O(n), for storing the tree.
 
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/6e88da94-48b8-497b-a07c-7b07f53b3a20)
 
 
 Code Implementation
@@ -467,6 +474,7 @@ Description
       * **Space Complexity**: O(n), for storing the skip list.
 
 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/abe3d862-38c0-4552-aa78-a5fd4de28e5d)
 
 
 Code Implementation
