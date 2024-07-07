@@ -162,6 +162,7 @@ Description
 
 
 
+![Warehouse Layout](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/af64fcb6-82c3-4124-928b-bdf0740255b6)
 
 Code Implementation
 
