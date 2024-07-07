@@ -605,7 +605,7 @@ Code Implementation
 
 [Back to contents](#BusinessUseCases)
 
-## References
+## References<a name="References"></a>
 1. Bandekar, Shraddha. (2019). Optimization Algorithm in Supply Chain Management. International Journal of Innovative Technology and Exploring Engineering. 8. 5072-5079. 10.35940/ijitee.L2724.1081219. 
 [LINK](https://www.researchgate.net/publication/343007031_Optimization_Algorithm_in_Supply_Chain_Management)
 
