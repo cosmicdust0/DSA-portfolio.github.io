@@ -1,6 +1,5 @@
 # Supply Chain Optimization with DSA
 https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/e0c1b077-40b9-4395-95c0-9b47e41e1ae9
-
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
@@ -16,30 +15,21 @@ https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/e0c1b077
 This project demonstrates the application of data structures and algorithms (DSA) and ML to optimize a specific aspect of supply chain management, such as inventory management, logistics planning, or route optimization. 
 
 ### Contents 
-
 1. [Goals](#Goals)
-2. [DSA involved](#DSAinvolved)
-3. [Technology Stack](#Technology_Stack)
-4. [ Modules of a supply chain ](#Modules)
-5. [Extra functionalities that I would like to improve/include ](#Functionalities)
-
+2. [Business Use Cases](#BusinessUseCases)
 
 # Goals<a name="Goals"></a>
 ## Skills Development
-
 * **Data Structures and Algorithms (DSA) Proficiency:**
   -Apply efficient data structures (e.g., graphs, queues, trees) and algorithms (e.g., sorting, searching, shortest path) to solve complex supply chain problems.
   
 * **Problem-Solving Expertise:**
   - Develop innovative solutions using appropriate DSA knowledge, demonstrating critical thinking and problem-solving skills.
-
 * **Algorithmic Optimization:**
   - Showcase an understanding of algorithm complexity and the ability to tailor them for specific supply chain requirements.
-
 * **Effective Data Management:**
   - Employ strong data handling skills, including data organization, manipulation, and analysis using efficient techniques.
   
-
 ## Career Advancement
 * **Recognise and Understand the domain of my interest:**
  -Research different fields that seem aligned with my self-reflection. Read about careers, watch videos, and talk to seniors/professionals in these areas of SCM.
@@ -47,234 +37,306 @@ This project demonstrates the application of data structures and algorithms (DSA
 * **Enhanced Engineering Capabilities:**
   - Build robust and efficient supply chain systems using DSA, elevating my engineering skillset.
   - Demonstrate proficiency in applying computer science concepts to tackle real-world supply chain problems.
-
 * **Portfolio Impact:**
   - Create a strong portfolio showcasing innovative projects that address real-world supply chain problems using DSA.
   - Impress potential employers with my ability to design and implement effective solutions, making you a strong candidate for roles in supply chain management and software development.
 
+# Business Use Cases<a name="BusinessUseCases"></a>
 
- 
-
-# DSA involved<a name="DSAinvolved"></a>
-This project utilizes various DSA techniques to enhance efficiency and decision-making in the supply chain. For example:
-
-  * Graphs can represent the network of suppliers, warehouses, and distributors, enabling efficient route planning with algorithms like A*,  Dijkstra's algorithms etc.
-  *  Hash maps, trees and queues can be used to model inventory flow, ensuring First-In-First-Out (FIFO) or other inventory management strategies.
-  * Sorting algorithms can be applied to prioritize orders or shipments based on urgency, cost, or other criteria.
-
-By incorporating DSA principles, my project aims to achieve significant improvements in  cost savings, delivery speed, and customer satisfaction.
-
-
-# Technology Stack<a name="Technology_Stack"></a>
-
-* Programming language(s): (e.g., Python, Javascript )
-* Libraries/Frameworks: (e.g., Django, React )
-
-
-## Modules of a supply chain <a name="Modules"></a>
-
-This system comprises several interconnected modules for streamlined supply chain management:
-
-**1. Raw materials Suppliers analysis and selection:**
-
-* Manages supplier data (contact information, product catalogues, lead times, quality records).
-* Enables searching and filtering suppliers based on various criteria.
-* Supports supplier performance evaluation and risk assessments.
-
-  
-![photo_2024-06-07_23-43-38](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/0836c129-68b6-4b61-8d23-e780ecabc3b9)
+1. [Route Optimization for Last-Mile Delivery](#RouteOptimization)
+2. [Inventory Optimization System](#InventoryOptimization)
+3. [Supplier Performance Tracking System](#SupplierPerformance)
+4. [Warehouse Layout Optimization](#WarehouseLayout)
+5. [Demand Forecasting System](#DemandForecasting)
+6. [Supply Chain Risk Management System](#RiskManagement)
+7. [Multi-Echelon Inventory Optimization](#MultiEchelonInventory)
+8. [Predictive Maintenance System](#PredictiveMaintenance)
+9. [Collaborative Demand and Supply Planning](#CollaborativePlanning)
+10. [Smart Contract Management System](#SmartContracts)
+11. [Network Design Optimization](#NetworkDesign)
+12. [Reverse Logistics Optimization](#ReverseLogistics)
+13. [Dynamic Pricing Optimization](#DynamicPricing)
+14. [Sustainable Supply Chain Management](#SustainableSupplyChain)
+15. [Supply Chain Finance Optimization](#SupplyChainFinance)
 
 
-**Supplier Selection:** The machine learning model will predict  the best supplier based on market trends to be selected every week, and then the info is fetched and the best route  to the supplier is calculated.
+## Route Optimization for Last-Mile Delivery<a name="RouteOptimization"></a>
 
-**Supplier info (Hash Table):**
-Key: Unique Supplier ID (efficient to fetch)
-Values:
-Contact Information (Name, Address, Phone, Email)
-Product Catalog (List of products offered with details)
-Lead Time (Average time to fulfil an order)
-Foreign Key to Quality Records Table (reference for detailed quality data)
+**Description**: A system that calculates the most efficient routes for delivery vehicles, considering factors like traffic, delivery windows, and vehicle capacity.
+* **Challenges**: Real-time route adjustments, handling dynamic traffic conditions, balancing multiple objectives (time, cost, customer satisfaction).
+* **Market Benefits**: Reduced fuel costs, improved on-time deliveries, increased delivery capacity.
+* **Design Techniques and Algorithms**:
+   * **A* Search Algorithm**: For finding optimal routes.
+      * **Time Complexity**: O(b^d), where b is the branching factor and d is the depth of the goal.
+      * **Space Complexity**: O(b^d), for storing the open and closed lists.
+   * **Ford-Fulkerson Algorithm**: For maximizing the flow of deliveries through the network.
+      * **Time Complexity**: O(E * max_flow), where E is the number of edges in the graph.
+      * **Space Complexity**: O(V), where V is the number of vertices in the graph.
 
-**Information Retrieval:**
-Use the supplier ID from the ML model output to directly access the main table in the hash table for quick retrieval of contact information, product catalogue, and lead time.
-
-**Route Calculation:**
-Algorithm: A* Search with a Priority Queue
-This algorithm balances distance (heuristic) and actual travelled distance to find the fastest route.
-
-**Implementation:**
-
-* Create a graph data structure to store supplier locations and connecting routes.
-* Define a heuristic function that estimates the remaining distance to the supplier's warehouse from the current location (e.g., straight-line distance).
-* Use a priority queue to prioritize nodes based on a combination of the actual distance travelled and the heuristic estimate (total cost).
-* Explore nodes in the priority queue, calculating the total cost (distance travelled + heuristic).
-* Maintain a "closed list" of already visited nodes to avoid revisiting them.
-* The algorithm terminates when the destination (supplier warehouse) is reached, returning the fastest route.
-### Code implementation
-**Here is the explanation and the sample code:**
-[ Raw materials Suppliers analysis and selection](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/be5e3a99e1c7355d1c9ac3430ebfd470b8077be8/Raw%20materials%20Suppliers%20analysis%20and%20selection)
-
-**2. Economics/Finances of the complete product flow:**
-
-* Handles cost calculations (raw materials, production, transportation, storage).
-* Implements pricing models to optimize profitability.
-* Analyzes economic trends and forecasts for informed decision-making.
-* let us take an example of the beverage production
-
-  
-![photo_2024-06-07_23-43-27](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/008a7f3d-3da1-436e-8fc3-7c55741a6833)
-
-### Beverage Production Cost Management System
-
-This design of a system for managing beverage production costs, including ingredients, production costs, and marketing costs.
-
-### Sub-Modules
-
-The system consists of three main modules:
-
-1. **Ingredients:**
-    - **Data Structure:** Struct/Class representing an ingredient.
-    - **Properties:**
-        - Name (string)
-        - Cost per unit (double)
-        - Unit quantity needed per bottle (double)
-    - **Storage:** Database
-2. **Production Cost:**
-    - **Data Structure:** Struct/Class (optional) or variable.
-    - **Properties:**
-        - Cost per unit of production (e.g., machinery operation, labor) (double)
-    - **Storage:** Database
-3. **Marketing Cost:**
-    - **Data Structure:** `MarketingChannel` class and `MarketingChannelHeap` class.
-    - **`MarketingChannel` Class:**
-        - Properties:
-            - Name (string)
-            - Cost per reach (double)
-            - Minimum reach (double)
-            - Target audiences (optional: vector<string>)
-            - Total cost (double) (calculated dynamically)
-    - **`MarketingChannelHeap` Class:**
-        - Min-heap implementation for efficient retrieval of the cheapest advertising option.
-    - **Storage:** Database for channel details.
-
-### Category Tree for Ingredients (Optional)
-
-- A separate tree structure can be implemented (e.g., using a trie or a graph) to represent hierarchical relationships between ingredients (e.g., fruits, vegetables, grains).
-
-### Implementation
-
-**Ingredients:**
-
-1. Store ingredient data (name, cost, unit quantity) in a database table.
-2. Implement functions to add, edit, and delete ingredients.
-
-**Production Cost:**
-
-1. Store production cost per unit (machinery, labor) in a database table (optional: can be a single value).
-2. Implement functions to update the production cost.
-
-**Marketing Cost:**
-
-1. Store marketing channel data (name, cost per reach, minimum reach, target audiences) in a database table.
-2. Implement functions to add, edit, and delete marketing channels.
-3. Use the `MarketingChannelHeap` to efficiently find the cheapest advertising option based on target audience and desired reach:
-    - Populate the `MarketingChannelHeap` with channels from the database.
-    - Calculate the total cost for each channel based on the desired reach.
-    - Use the `extractCheapest` function of the `MarketingChannelHeap` to find the channel with the lowest total cost.
-
-### Code implementation
-  **Here is the explanation and the sample code:**
-  [Economics/Finances of the complete product flow](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/cc09a89ca8e91c833ee20bcc991d91f914c2ca08/EconomicsFinances%20of%20the%20complete%20product%20flow)
-
-**3. Storage for raw materials  finished goods and other consumables:**
-
-* Tracks inventory levels across various storage facilities.
-* Optimizes inventory placement and allocation using appropriate data structures (e.g., graphs).
-* Implements inventory management strategies (FIFO, LIFO, Just-in-Time).
-
-  
-![storage](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/1a960c8b-6c59-4499-bea0-dd585316175c)
-
-
-![logistics](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/efd0f33c-2232-4ea2-bb5e-7e2a9e29f928)
-
-
-**1.Products:**
-Data Structure: AVL/Red-Black Tree (RBT)
-Efficient search (O(log n)) for product information based on ID or name is crucial for placement and retrieval. AVL/RBTs ensure balanced insertion and deletion, maintaining efficient lookup performance.
-
-Key-Value Pairs:
-Key: Product ID (unique identifier)
-Value: Product object containing details (name, demand prediction, location, stock level, etc.)
-
-**2.Warehouse Layout:**
-
-* Data Structure: Directed Acyclic Graph (DAG)
-
-* Rationale: The warehouse layout can be modelled as a DAG, where nodes represent storage units (shelves, bins) and directed edges represent feasible movement paths. A DAG is suitable because movement is typically one-directional within the warehouse.
-
-  -Nodes: Warehouse storage units (shelves, bins) with attributes like capacity, available space, and product type suitability.
-
-  -Edges: Directed connections between storage units representing feasible movement paths.
-
-**3.Inventory Management:**
-* Data Structure: Hash Tables (Just-in-Time)
-
-* Algorithms:
-Product Placement: A* Search (informed search)
-
-**Implementation:**
- A* prioritizes search paths based on a heuristic that estimates the remaining distance (cost) to the goal location predicted by the ML model. This ensures efficient placement within the warehouse layout DAG, minimizing travel time.
-
-* Cost Function: Combines movement distance (e.g., Manhattan distance) between storage units in the warehouse layout DAG and a penalty for exceeding capacity constraints.
-Heuristic: Estimates remaining distance to the ML-predicted location based on product attributes (e.g., demand, size, weight).
-
-**Hybrid Approach:**
-A hybrid approach that leverages both algorithms:
-
-* Initial Search with DFS: Start with a quick DFS search to explore potential paths from the current location.
-BFS (Optional): If the initial DFS search doesn't find the product within a reasonable timeframe, switch to BFS to guarantee finding the shortest path.
-This hybrid approach offers a balance between speed and efficiency.  The threshold for switching to BFS based on your specific warehouse setup and retrieval needs.
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/119f905d-bce9-4f49-afd3-7671d5162dc4)
 
 
 ### Code implementation
-**Here is the explanation and the sample code:**
-[Storage for raw materials  finished goods and other consumables](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/31065290cd36d99679e9b770bfdc2c5f52061dd2/Storage%20for%20raw%20material)
-
-## Functionalities that I would like to improve on <a name="Functionalities"></a>
-
-This section will empower businesses with a range of functionalities to enhance supply chain performance:
-
-**1. Analysis (Charts):**
-
-* Generates insightful visualizations (charts, graphs) to represent key metrics (inventory levels, production costs, delivery times).
-* Provides data analysis dashboards to monitor trends and identify areas for improvement.
-* Uses data structures (e.g., trees) to facilitate efficient data organization and retrieval for visualization creation.
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/route_optimization.cpp)
 
 
-**2. Prediction(ML):**
+## Inventory Optimization System<a name="InventoryOptimization"></a>
 
-* Integrates machine learning models or forecasting techniques to predict future demand, supply disruptions, and potential quality issues.
-* Utilizes historical data (stored efficiently using data structures like arrays and linked lists) to train prediction models.
-* Predictions enable proactive decision-making and inventory management.
-
-**3. Management(frontend Dashboard):**
-
-* Provides tools to manage suppliers, inventory, production schedules, quality control processes, and logistics operations.
-* Integrates appropriate data structures and algorithms to support efficient management tasks (e.g., priority queues for order fulfilment).
-* Streamlines supply chain operations for improved efficiency.
-
-**4. Calculations:**
-
-* Offers functionalities to calculate costs, delivery times, lead times, resource usage, and other relevant metrics.
-* Leverages algorithms (e.g., dynamic programming for some calculations) to optimize performance and accuracy.
-* Provides valuable insights for cost reduction and better resource allocation.
+**Description**: An AI-driven system that predicts demand, optimizes stock levels, and automates reordering processes across multiple warehouses.
+* **Challenges**: Handling variable lead times, accounting for seasonal fluctuations, integrating data from multiple sources.
+* **Market Benefits**: Reduced carrying costs, minimized stockouts, improved cash flow.
+* **Design Techniques and Algorithms**:
+   * **Fenwick Tree (Binary Indexed Tree)**: For efficient range sum queries on historical sales data.
+      * **Time Complexity**: O(log n) for update and query operations, where n is the number of data points.
+      * **Space Complexity**: O(n), for storing the tree.
+   * **Exponential Smoothing**: For time series forecasting.
+      * **Time Complexity**: O(n), where n is the number of historical data points.
+      * **Space Complexity**: O(1), as it only needs to store a few parameters.
+        
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/63af577a-a6b5-435e-b75a-cbe0fc3e8ecb)
 
 
 
 
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/inventory_optimization.cpp)
 
-**Author:**
 
-* Ravishankar Bevinal 
+## Supplier Performance Tracking System<a name="SupplierPerformance"></a>
 
+**Description**: A system that monitors, evaluates, and ranks supplier performance based on multiple criteria such as quality, on-time delivery, and cost.
+* **Challenges**: Integrating diverse data sources, maintaining data accuracy, providing real-time insights.
+* **Market Benefits**: Improved supplier relationships, reduced supply chain risks, better negotiation position.
+* **Design Techniques and Algorithms**:
+   * **Red-Black Trees**: For efficient insertion, deletion, and retrieval of supplier performance data.
+      * **Time Complexity**: O(log n) for insert, delete, and search operations, where n is the number of suppliers.
+      * **Space Complexity**: O(n), for storing the tree.
+   * **Heap**: For maintaining a priority queue of suppliers based on performance scores.
+      * **Time Complexity**: O(log n) for insert and delete-max operations, where n is the number of suppliers.
+      * **Space Complexity**: O(n), for storing the heap.
+      * 
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/43749dc5-13cf-4411-965c-4d47a9c23b31)
+
+
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supplier_performance.cpp)
+
+## Warehouse Layout Optimization<a name="WarehouseLayout"></a>
+
+**Description**: A system that optimizes the placement of goods within a warehouse to minimize picking time and improve overall efficiency.
+* **Challenges**: Handling frequently changing inventory, accommodating various item sizes and storage requirements, optimizing for multiple objectives (e.g., picking efficiency, space utilization).
+* **Market Benefits**: Increased warehouse productivity, reduced operational costs, improved order fulfillment speed.
+* **Design Techniques and Algorithms**:
+   * **KD Tree**: For efficient spatial partitioning and nearest neighbor searches.
+      * **Time Complexity**: O(log n) for search operations on average, where n is the number of items.
+      * **Space Complexity**: O(n), for storing the tree.
+   * **Genetic Algorithm**: For evolving optimal layout solutions.
+      * **Time Complexity**: O(g * p * f), where g is the number of generations, p is the population size, and f is the cost of fitness evaluation.
+      * **Space Complexity**: O(p), for storing the population.
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/da9ce56a-29a6-4387-8092-f5ee545120d3)
+
+
+
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/warehouse_layout.cpp)
+
+## Demand Forecasting System<a name="DemandForecasting"></a>
+
+**Description**: An advanced analytics system that predicts future demand for products based on historical data, market trends, and external factors.
+* **Challenges**: Handling seasonality, incorporating external factors (e.g., economic indicators, weather), dealing with new product introductions.
+* **Market Benefits**: Improved inventory management, better production planning, reduced stockouts and overstocks.
+* **Design Techniques and Algorithms**:
+   * **Segment Trees**: For efficient range queries on historical sales data.
+      * **Time Complexity**: O(log n) for range query and update operations, where n is the number of data points.
+      * **Space Complexity**: O(n), for storing the tree.
+   * **MO's Algorithm**: For efficiently answering multiple range queries offline.
+      * **Time Complexity**: O((n+q) * √n), where n is the number of data points and q is the number of queries.
+      * **Space Complexity**: O(n), for storing the input array and query results.
+
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/c2e17106-4412-4dcc-904d-fa26c4123dbc)
+
+
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/demand_forecasting.cpp)
+
+## Supply Chain Risk Management System<a name="RiskManagement"></a>
+
+**Description**: A system that identifies, assesses, and mitigates risks across the supply chain, including supplier failures, geopolitical events, and natural disasters.
+* **Challenges**: Integrating diverse risk factors, quantifying risk impacts, providing actionable mitigation strategies.
+* **Market Benefits**: Improved supply chain resilience, reduced disruptions, better strategic decision-making.
+* **Design Techniques and Algorithms**:
+   * **DFS (Depth-First Search)**: For analyzing supply chain dependency graphs.
+      * **Time Complexity**: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
+      * **Space Complexity**: O(V), for the recursion stack.
+   * **Monte Carlo Simulation**: For risk assessment and scenario analysis.
+      * **Time Complexity**: O(n * s), where n is the number of risk factors and s is the number of simulations.
+      * **Space Complexity**: O(n), for storing simulation results.
+
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/risk_management.cpp)
+
+## Multi-Echelon Inventory Optimization<a name="MultiEchelonInventory"></a>
+
+**Description**: A system that optimizes inventory levels across multiple tiers of the supply chain, from raw materials to finished goods.
+* **Challenges**: Coordinating inventory decisions across multiple parties, handling varying lead times and demand patterns, balancing service levels and costs.
+* **Market Benefits**: Reduced overall inventory costs, improved service levels, enhanced supply chain visibility.
+* **Design Techniques and Algorithms**:
+   * **Dynamic Programming**: For optimizing inventory decisions across time periods and echelons.
+      * **Time Complexity**: O(n * m * k), where n is the number of time periods, m is the number of echelons, and k is the number of possible inventory levels.
+      * **Space Complexity**: O(n * m * k), for storing the dynamic programming table.
+   * **Square Root Decomposition**: For efficiently handling range queries and updates on inventory data.
+      * **Time Complexity**: O(√n) for query and update operations, where n is the number of inventory items.
+      * **Space Complexity**: O(n), for storing the decomposed array.
+
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/multi_echelon_inventory.cpp)
+
+## Predictive Maintenance System<a name="PredictiveMaintenance"></a>
+**Description**: An IoT-based system that monitors equipment health in real-time and predicts maintenance needs to prevent breakdowns and optimize maintenance schedules.
+* **Challenges**: Integrating data from diverse sensors, developing accurate predictive models, balancing maintenance costs with downtime risks.
+* **Market Benefits**: Reduced equipment downtime, lower maintenance costs, extended equipment lifespan.
+* **Design Techniques and Algorithms**:
+   * **Random Forest**: For predictive modeling of equipment failures.
+      * **Time Complexity**: O(n * log(n) * m * k), where n is the number of samples, m is the number of features, and k is the number of trees.
+      * **Space Complexity**: O(m * k), for storing the forest.
+   * **Trie**: For efficient storage and retrieval of equipment maintenance histories.
+      * **Time Complexity**: O(k) for insert and search operations, where k is the length of the key.
+      * **Space Complexity**: O(n * k), where n is the number of keys and k is the average key length.
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/predictive_maintenance.cpp)
+
+## Collaborative Demand and Supply Planning<a name="CollaborativePlanning"></a>
+
+**Description**: A platform that enables real-time collaboration between suppliers, manufacturers, and retailers to align demand forecasts with supply plans.
+* **Challenges**: Ensuring data consistency across parties, handling conflicting objectives, providing real-time visibility and decision support.
+* **Market Benefits**: Reduced bullwhip effect, improved forecast accuracy, enhanced supply chain agility.
+* **Design Techniques and Algorithms**:
+   * **Consensus Algorithm**: For reaching agreement on shared forecasts.
+      * **Time Complexity**: O(n * r), where n is the number of participants and r is the number of rounds.
+      * **Space Complexity**: O(n), for storing participant states.
+   * **B-Tree**: For efficient storage and retrieval of large volumes of planning data.
+      * **Time Complexity**: O(log n) for search, insert, and delete operations, where n is the number of keys.
+      * **Space Complexity**: O(n), for storing the tree.
+
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/collaborative_planning.cpp)
+
+## Smart Contract Management System<a name="SmartContracts"></a>
+
+**Description**: A blockchain-based system that automates contract execution, payments, and compliance monitoring across the supply chain.
+* **Challenges**: Ensuring contract security and privacy, integrating with legacy systems, handling complex contract logic.
+* **Market Benefits**: Reduced transaction costs, improved contract compliance, increased trust among supply chain partners.
+* **Design Techniques and Algorithms**:
+   * **Merkle Trees**: For efficient verification of blockchain transactions.
+      * **Time Complexity**: O(log n) for proof generation and verification, where n is the number of transactions.
+      * **Space Complexity**: O(n), for storing the tree.
+   * **State Machine**: For modeling and executing smart contract logic.
+      * **Time Complexity**: O(1) for state transitions.
+      * **Space Complexity**: O(s), where s is the number of possible states.
+
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/smart_contracts.cpp)
+
+## Network Design Optimization<a name="NetworkDesign"></a>
+
+**Description**: A system that optimizes the design of the supply chain network, including the location and capacity of facilities, transportation links, and inventory placement.
+* **Challenges**: Handling complex constraints, balancing multiple objectives (cost, service level, risk), incorporating future scenarios.
+* **Market Benefits**: Reduced overall supply chain costs, improved service levels, enhanced strategic decision-making.
+* **Design Techniques and Algorithms**:
+   * **Boruvka's Algorithm**: For finding the minimum spanning tree in the supply chain network.
+      * **Time Complexity**: O(E log V), where E is the number of edges and V is the number of vertices.
+      * **Space Complexity**: O(E + V), for storing the graph and MST.
+   * **Integer Programming**: For solving complex network design optimization problems.
+      * **Time Complexity**: Exponential in the worst case, but often practical for real-world problems with modern solvers.
+      * **Space Complexity**: O(n * m), where n is the number of variables and m is the number of constraints.
+
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/network_design.cpp)
+
+## Reverse Logistics Optimization<a name="ReverseLogistics"></a>
+**Description**: A system that optimizes the collection, processing, and disposition of returned goods, minimizing costs and maximizing value recovery.
+* **Challenges**: Handling unpredictable return volumes and conditions, optimizing disposition decisions, integrating with forward logistics.
+* **Market Benefits**: Reduced reverse logistics costs, improved customer satisfaction, increased value recovery from returns.
+* **Design Techniques and Algorithms**:
+   * **K-Means Clustering**: For grouping return locations and optimizing collection routes.
+      * **Time Complexity**: O(n * k * i), where n is the number of points, k is the number of clusters, and i is the number of iterations.
+      * **Space Complexity**: O(n + k), for storing point assignments and centroids.
+   * **Decision Trees**: For automating disposition decisions based on product condition and market factors.
+      * **Time Complexity**: O(n * log(n)) for training, where n is the number of samples.
+      * **Space Complexity**: O(m), where m is the number of nodes in the tree.
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/reverse_logistics.cpp)
+
+## Dynamic Pricing Optimization<a name="DynamicPricing"></a>
+
+**Description**: A system that adjusts product prices in real-time based on demand, inventory levels, competitor pricing, and other market factors.
+* **Challenges**: Handling real-time data streams, balancing multiple pricing objectives, ensuring pricing consistency across channels.
+* **Market Benefits**: Increased revenue and profit margins, improved inventory turnover, enhanced competitive positioning.
+* **Design Techniques and Algorithms**:
+   * **Reinforcement Learning**: For optimizing pricing decisions over time.
+      * **Time Complexity**: O(s * a * e), where s is the number of states, a is the number of actions, and e is the number of episodes.
+      * **Space Complexity**: O(s * a), for storing the Q-table.
+   * **AVL Trees**: For maintaining sorted price lists with efficient updates.
+      * **Time Complexity**: O(log n) for insert, delete, and search operations, where n is the number of prices.
+      * **Space Complexity**: O(n), for storing the tree.
+
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/dynamic_pricing.cpp)
+
+## Sustainable Supply Chain Management<a name="SustainableSupplyChain"></a>
+
+**Description**: A system that monitors, reports, and optimizes the environmental and social impact of supply chain operations, including carbon emissions, water usage, and fair labor practices.
+* **Challenges**: Collecting accurate sustainability data, quantifying and optimizing multiple sustainability metrics, ensuring compliance with diverse regulations.
+* **Market Benefits**: Improved brand reputation, compliance with regulations, reduced environmental impact and associated costs.
+* **Design Techniques and Algorithms**:
+   * **Multi-Objective Optimization**: For balancing economic, environmental, and social objectives.
+      * **Time Complexity**: O(n * m * g), where n is the population size, m is the number of objectives, and g is the number of generations.
+      * **Space Complexity**: O(n * m), for storing the population and Pareto front.
+   * **Radix Tree**: For efficient storage and retrieval of hierarchical sustainability data.
+      * **Time Complexity**: O(k) for insert and search operations, where k is the length of the key.
+      * **Space Complexity**: O(n * k), where n is the number of keys and k is the average key length.
+
+
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/sustainable_supply_chain.cpp)
+
+## Supply Chain Finance Optimization<a name="SupplyChainFinance"></a>
+
+**Description**: A system that optimizes working capital across the supply chain through techniques such as dynamic discounting, reverse factoring, and inventory financing.
+* **Challenges**: Assessing creditworthiness in real-time, optimizing payment terms across multiple parties, managing financial risks.
+* **Market Benefits**: Improved cash flow for all parties, reduced financing costs, strengthened supplier relationships.
+* **Design Techniques and Algorithms**:
+   * **Network Flow Algorithms**: For optimizing cash flows across the supply chain network.
+      * **Time Complexity**: O(V * E^2) for Edmonds-Karp algorithm, where V is the number of vertices and E is the number of edges.
+      * **Space Complexity**: O(V + E), for storing the residual graph.
+   * **Skip List**: For maintaining sorted lists of invoices with efficient insertion and removal.
+      * **Time Complexity**: O(log n) expected time for search, insert, and delete operations, where n is the number of elements.
+      * **Space Complexity**: O(n), for storing the skip list.
+
+
+[Insert Image Here]
+### Code implementation
+**Here is sample code:**
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supply_chain_finance.cpp)
