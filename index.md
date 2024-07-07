@@ -61,11 +61,11 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 
 ## Route Optimization for Last-Mile Delivery<a name="RouteOptimization"></a>
+**A system that calculates the most efficient routes for delivery vehicles, considering factors like traffic, delivery windows, and vehicle capacity.**
 
 <details>
 <summary>Description</summary>
 
-**A system that calculates the most efficient routes for delivery vehicles, considering factors like traffic, delivery windows, and vehicle capacity.**
 
 - **Challenges**: Real-time route adjustments, handling dynamic traffic conditions, balancing multiple objectives (time, cost, customer satisfaction).
 - **Market Benefits**: Reduced fuel costs, improved on-time deliveries, increased delivery capacity.
@@ -89,11 +89,11 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 
 ## Inventory Optimization System<a name="InventoryOptimization"></a>
+**An AI-driven system that predicts demand, optimizes stock levels, and automates reordering processes across multiple warehouses.**
 
 <details>
 <summary>Description</summary>
 
-**An AI-driven system that predicts demand, optimizes stock levels, and automates reordering processes across multiple warehouses.**
 
 - **Challenges**: Handling variable lead times, accounting for seasonal fluctuations, integrating data from multiple sources.
 - **Market Benefits**: Reduced carrying costs, minimized stockouts, improved cash flow.
@@ -104,6 +104,7 @@ This project demonstrates the application of data structures and algorithms (DSA
   - **Exponential Smoothing**: For time series forecasting.
     - **Time Complexity**: O(n), where n is the number of historical data points.
     - **Space Complexity**: O(1), as it only needs to store a few parameters.
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/63af577a-a6b5-435e-b75a-cbe0fc3e8ecb)
 
 </details>
 
@@ -114,14 +115,13 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/63af577a-a6b5-435e-b75a-cbe0fc3e8ecb)
 
 ## Supplier Performance Tracking System<a name="SupplierPerformance"></a>
+**A system that monitors, evaluates, and ranks supplier performance based on multiple criteria such as quality, on-time delivery, and cost.**
 
 <details>
 <summary>Description</summary>
 
-**A system that monitors, evaluates, and ranks supplier performance based on multiple criteria such as quality, on-time delivery, and cost.**
 
 - **Challenges**: Integrating diverse data sources, maintaining data accuracy, providing real-time insights.
 - **Market Benefits**: Improved supplier relationships, reduced supply chain risks, better negotiation position.
@@ -141,12 +141,14 @@ This project demonstrates the application of data structures and algorithms (DSA
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supplier_performance.cpp)
 
 </details>
+
+
 ## Warehouse Layout Optimization<a name="WarehouseLayout"></a>
+**A system that optimizes the placement of goods within a warehouse to minimize picking time and improve overall efficiency.**
 
 <details>
 <summary>Description</summary>
 
-**A system that optimizes the placement of goods within a warehouse to minimize picking time and improve overall efficiency.**
 
 - **Challenges**: Handling frequently changing inventory, accommodating various item sizes and storage requirements, optimizing for multiple objectives (e.g., picking efficiency, space utilization).
 - **Market Benefits**: Increased warehouse productivity, reduced operational costs, improved order fulfillment speed.
@@ -167,7 +169,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/da9ce56a-29a6-4387-8092-f5ee545120d3)
 
 ## Demand Forecasting System<a name="DemandForecasting"></a>
 
@@ -195,7 +196,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/c2e17106-4412-4dcc-904d-fa26c4123dbc)
 
 ## Supply Chain Risk Management System<a name="RiskManagement"></a>
 
@@ -223,7 +223,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/ef5f98ba-c1e7-4854-8b6f-8f084e58d7a2)
 
 ## Multi-Echelon Inventory Optimization<a name="MultiEchelonInventory"></a>
 
@@ -251,7 +250,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/9e4b06aa-4768-48a2-b9c3-82ed2b4cf081)
 
 ## Predictive Maintenance System<a name="PredictiveMaintenance"></a>
 
@@ -279,7 +277,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/d044c339-dfa7-4f5a-8b51-59eb4892e51d)
 
 ## Collaborative Demand and Supply Planning<a name="CollaborativePlanning"></a>
 
@@ -307,7 +304,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/522c9fa5-8ea2-46d0-90b1-d2f4db92d4f0)
 
 ## Smart Contract Management System<a name="SmartContracts"></a>
 
@@ -335,7 +331,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/c6c33e92-68d6-4b9c-8b0d-fc9751d2fd00)
 
 ## Network Design Optimization<a name="NetworkDesign"></a>
 
@@ -365,7 +360,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/2b8a4936-2038-41e1-8925-964e489b4234)
 
 ## Reverse Logistics Optimization<a name="ReverseLogistics"></a>
 
@@ -395,7 +389,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/9b8a4c6a-f2a8-4c65-a6f5-6df0e93c01d4)
 
 ## Dynamic Pricing Optimization<a name="DynamicPricing"></a>
 
@@ -425,7 +418,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/4f7cb0b8-5b15-4c53-b02f-22062a2f7dfc)
 
 ## Sustainable Supply Chain Management<a name="SustainableSupplyChain"></a>
 
@@ -455,7 +447,6 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/0ac340b7-8b53-474f-b005-2fdf0de3f97b)
 
 ## Supply Chain Finance Optimization<a name="SupplyChainFinance"></a>
 
@@ -485,4 +476,3 @@ This project demonstrates the application of data structures and algorithms (DSA
 
 </details>
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/3b4a6dfc-f155-4e71-81ea-5c7b13a35377)
