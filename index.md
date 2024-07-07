@@ -150,10 +150,10 @@ Code Implementation
 Description
 
 
-- **Challenges**: Handling frequently changing inventory, accommodating various item sizes and storage requirements, optimizing for multiple objectives (e.g., picking efficiency, space utilization).
-- **Market Benefits**: Increased warehouse productivity, reduced operational costs, improved order fulfillment speed.
+- **Challenges**: Handling frequently changing inventory, accommodating various item sizes and storage requirements, and optimizing for multiple objectives (e.g., picking efficiency, space utilization).
+- **Market Benefits**: Increased warehouse productivity, reduced operational costs, improved order fulfilment speed.
 - **Design Techniques and Algorithms**:
-  - **KD Tree**: For efficient spatial partitioning and nearest neighbor searches.
+  - **KD Tree**: For efficient spatial partitioning and nearest neighbour searches.
     - **Time Complexity**: O(log n) for search operations on average, where n is the number of items.
     - **Space Complexity**: O(n), for storing the tree.
   - **Genetic Algorithm**: For evolving optimal layout solutions.
@@ -161,8 +161,8 @@ Description
     - **Space Complexity**: O(p), for storing the population.
 
 
+![Screenshot 2024-07-07 194128](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/2196954c-f9cd-4db3-8e0b-fd80b67b7973)
 
-![Warehouse Layout](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/af64fcb6-82c3-4124-928b-bdf0740255b6)
 
 Code Implementation
 
@@ -178,7 +178,7 @@ Description
 
 **An advanced analytics system that predicts future demand for products based on historical data, market trends, and external factors.**
 
-- **Challenges**: Handling seasonality, incorporating external factors (e.g., economic indicators, weather), dealing with new product introductions.
+- **Challenges**: Handling seasonality, incorporating external factors (e.g., economic indicators, weather), and dealing with new product introductions.
 - **Market Benefits**: Improved inventory management, better production planning, reduced stockouts and overstocks.
 - **Design Techniques and Algorithms**:
   - **Segment Trees**: For efficient range queries on historical sales data.
