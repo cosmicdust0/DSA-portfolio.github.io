@@ -63,8 +63,8 @@ This project demonstrates the application of data structures and algorithms (DSA
 ## Route Optimization for Last-Mile Delivery<a name="RouteOptimization"></a>
 **A system that calculates the most efficient routes for delivery vehicles, considering factors like traffic, delivery windows, and vehicle capacity.**
 
-<details>
-<summary>Description</summary>
+
+Description
 
 
 - **Challenges**: Real-time route adjustments, handling dynamic traffic conditions, balancing multiple objectives (time, cost, customer satisfaction).
@@ -77,22 +77,22 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(E * max_flow), where E is the number of edges in the graph.
     - **Space Complexity**: O(V), where V is the number of vertices in the graph.
 ![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/119f905d-bce9-4f49-afd3-7671d5162dc4)
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/route_optimization.cpp)
 
-</details>
+
 
 
 
 ## Inventory Optimization System<a name="InventoryOptimization"></a>
 **An AI-driven system that predicts demand, optimizes stock levels, and automates reordering processes across multiple warehouses.**
 
-<details>
-<summary>Description</summary>
+
+Description
 
 
 - **Challenges**: Handling variable lead times, accounting for seasonal fluctuations, integrating data from multiple sources.
@@ -106,21 +106,21 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Space Complexity**: O(1), as it only needs to store a few parameters.
 ![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/63af577a-a6b5-435e-b75a-cbe0fc3e8ecb)
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/inventory_optimization.cpp)
 
-</details>
+
 
 
 ## Supplier Performance Tracking System<a name="SupplierPerformance"></a>
 **A system that monitors, evaluates, and ranks supplier performance based on multiple criteria such as quality, on-time delivery, and cost.**
 
-<details>
-<summary>Description</summary>
+
+Description
 
 
 - **Challenges**: Integrating diverse data sources, maintaining data accuracy, providing real-time insights.
@@ -133,21 +133,21 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(log n) for insert and delete-max operations, where n is the number of suppliers.
     - **Space Complexity**: O(n), for storing the heap.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supplier_performance.cpp)
 
-</details>
+
 
 
 ## Warehouse Layout Optimization<a name="WarehouseLayout"></a>
 **A system that optimizes the placement of goods within a warehouse to minimize picking time and improve overall efficiency.**
 
-<details>
-<summary>Description</summary>
+
+Description
 
 
 - **Challenges**: Handling frequently changing inventory, accommodating various item sizes and storage requirements, optimizing for multiple objectives (e.g., picking efficiency, space utilization).
@@ -160,20 +160,20 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(g * p * f), where g is the number of generations, p is the population size, and f is the cost of fitness evaluation.
     - **Space Complexity**: O(p), for storing the population.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/warehouse_layout.cpp)
 
-</details>
+
 
 
 ## Demand Forecasting System<a name="DemandForecasting"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **An advanced analytics system that predicts future demand for products based on historical data, market trends, and external factors.**
 
@@ -186,21 +186,22 @@ This project demonstrates the application of data structures and algorithms (DSA
   - **MO's Algorithm**: For efficiently answering multiple range queries offline.
     - **Time Complexity**: O((n+q) * √n), where n is the number of data points and q is the number of queries.
     - **Space Complexity**: O(n), for storing the input array and query results.
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/92ef5433-3853-47b7-a0e7-c9987357870a)
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/demand_forecasting.cpp)
 
-</details>
+
 
 
 ## Supply Chain Risk Management System<a name="RiskManagement"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A system that identifies, assesses, and mitigates risks across the supply chain, including supplier failures, geopolitical events, and natural disasters.**
 
@@ -214,20 +215,20 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(n * s), where n is the number of risk factors and s is the number of simulations.
     - **Space Complexity**: O(n), for storing simulation results.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/risk_management.cpp)
 
-</details>
+
 
 
 ## Multi-Echelon Inventory Optimization<a name="MultiEchelonInventory"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A system that optimizes inventory levels across multiple tiers of the supply chain, from raw materials to finished goods.**
 
@@ -241,20 +242,20 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(√n) for query and update operations, where n is the number of inventory items.
     - **Space Complexity**: O(n), for storing the decomposed array.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/multi_echelon_inventory.cpp)
 
-</details>
+
 
 
 ## Predictive Maintenance System<a name="PredictiveMaintenance"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **An IoT-based system that monitors equipment health in real-time and predicts maintenance needs to prevent breakdowns and optimize maintenance schedules.**
 
@@ -268,20 +269,20 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(k) for insert and search operations, where k is the length of the key.
     - **Space Complexity**: O(n * k), where n is the number of keys and k is the average key length.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/predictive_maintenance.cpp)
 
-</details>
+
 
 
 ## Collaborative Demand and Supply Planning<a name="CollaborativePlanning"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A platform that enables real-time collaboration between suppliers, manufacturers, and retailers to align demand forecasts with supply plans.**
 
@@ -295,20 +296,20 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(log n) for search, insert, and delete operations, where n is the number of keys.
     - **Space Complexity**: O(n), for storing the tree.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/collaborative_planning.cpp)
 
-</details>
+
 
 
 ## Smart Contract Management System<a name="SmartContracts"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A blockchain-based system that automates contract execution, payments, and compliance monitoring across the supply chain.**
 
@@ -322,20 +323,20 @@ This project demonstrates the application of data structures and algorithms (DSA
     - **Time Complexity**: O(1) for state transitions.
     - **Space Complexity**: O(s), where s is the number of possible states.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/smart_contracts.cpp)
 
-</details>
+
 
 
 ## Network Design Optimization<a name="NetworkDesign"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A system that optimizes the design of the supply chain network, including the location and capacity of facilities, transportation links, and inventory placement.**
 
@@ -349,22 +350,22 @@ This project demonstrates the application of data structures and algorithms (DSA
       * **Time Complexity**: Exponential in the worst case, but often practical for real-world problems with modern solvers.
       * **Space Complexity**: O(n * m), where n is the number of variables and m is the number of constraints.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/network_design.cpp)
 
-</details>
+
 
 
 ## Reverse Logistics Optimization<a name="ReverseLogistics"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A system that optimizes the collection, processing, and disposition of returned goods, minimizing costs and maximizing value recovery.**
 
@@ -378,22 +379,22 @@ This project demonstrates the application of data structures and algorithms (DSA
       * **Time Complexity**: O(n * log(n)) for training, where n is the number of samples.
       * **Space Complexity**: O(m), where m is the number of nodes in the tree.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/reverse_logistics.cpp)
 
-</details>
+
 
 
 ## Dynamic Pricing Optimization<a name="DynamicPricing"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A system that adjusts product prices in real-time based on demand, inventory levels, competitor pricing, and other market factors.**
 
@@ -407,22 +408,22 @@ This project demonstrates the application of data structures and algorithms (DSA
       * **Time Complexity**: O(log n) for insert, delete, and search operations, where n is the number of prices.
       * **Space Complexity**: O(n), for storing the tree.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/dynamic_pricing.cpp)
 
-</details>
+
 
 
 ## Sustainable Supply Chain Management<a name="SustainableSupplyChain"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A system that monitors, reports, and optimizes the environmental and social impact of supply chain operations, including carbon emissions, water usage, and fair labor practices.**
 
@@ -436,22 +437,22 @@ This project demonstrates the application of data structures and algorithms (DSA
       * **Time Complexity**: O(k) for insert and search operations, where k is the length of the key.
       * **Space Complexity**: O(n * k), where n is the number of keys and k is the average key length.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/sustainable_supply_chain.cpp)
 
-</details>
+
 
 
 ## Supply Chain Finance Optimization<a name="SupplyChainFinance"></a>
 
-<details>
-<summary>Description</summary>
+
+Description
 
 **A system that optimizes working capital across the supply chain through techniques such as dynamic discounting, reverse factoring, and inventory financing.**
 
@@ -465,14 +466,14 @@ This project demonstrates the application of data structures and algorithms (DSA
       * **Time Complexity**: O(log n) expected time for search, insert, and delete operations, where n is the number of elements.
       * **Space Complexity**: O(n), for storing the skip list.
 
-</details>
 
-<details>
-<summary>Code Implementation</summary>
+
+
+Code Implementation
 
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supply_chain_finance.cpp)
 
-</details>
+
 
