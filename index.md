@@ -83,6 +83,14 @@ Description
 Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/route_optimization.cpp)
+
+
+
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -114,6 +122,11 @@ Code Implementation
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/inventory_optimization.cpp)
 
 
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -140,6 +153,11 @@ Description
 Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supplier_performance.cpp)
+
+
+
+
+
 
 
 [Back to contents](#BusinessUseCases)
@@ -169,6 +187,11 @@ Description
 Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/warehouse_layout.cpp)
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -199,6 +222,11 @@ Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/demand_forecasting.cpp)
 
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -227,6 +255,11 @@ Description
 Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/risk_management.cpp)
+
+
+
+
+
 
 [Back to contents](#BusinessUseCases)
 
@@ -257,6 +290,11 @@ Code Implementation
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/multi_echelon_inventory.cpp)
 
 
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -284,6 +322,11 @@ Description
 Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/predictive_maintenance.cpp)
+
+
+
+
+
 
 [Back to contents](#BusinessUseCases)
 
@@ -314,6 +357,11 @@ Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/collaborative_planning.cpp)
 
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -342,6 +390,11 @@ Description
 Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/smart_contracts.cpp)
+
+
+
+
+
 
 [Back to contents](#BusinessUseCases)
 
@@ -375,6 +428,11 @@ Code Implementation
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/network_design.cpp)
 
 
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -404,6 +462,11 @@ Code Implementation
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/reverse_logistics.cpp)
+
+
+
+
+
 
 
 [Back to contents](#BusinessUseCases)
@@ -436,6 +499,11 @@ Code Implementation
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/dynamic_pricing.cpp)
 
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
@@ -465,6 +533,11 @@ Code Implementation
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/sustainable_supply_chain.cpp)
+
+
+
+
+
 
 [Back to contents](#BusinessUseCases)
 
@@ -496,6 +569,11 @@ Code Implementation
 **Here is sample code:**
 
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supply_chain_finance.cpp)
+
+
+
+
+
 [Back to contents](#BusinessUseCases)
 
 
