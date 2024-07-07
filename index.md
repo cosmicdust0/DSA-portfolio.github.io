@@ -1,5 +1,5 @@
 # Supply Chain Optimization with DSA
-https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/e0c1b077-40b9-4395-95c0-9b47e41e1ae9
+
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
@@ -104,7 +104,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/inventory_optimization.cpp)
 
 
-## Supplier Performance Tracking System<a name="SupplierPerformance"></a>
+## Supplier Performance Tracking System
 
 **Description**: A system that monitors, evaluates, and ranks supplier performance based on multiple criteria such as quality, on-time delivery, and cost.
 * **Challenges**: Integrating diverse data sources, maintaining data accuracy, providing real-time insights.
@@ -116,13 +116,13 @@ This project demonstrates the application of data structures and algorithms (DSA
    * **Heap**: For maintaining a priority queue of suppliers based on performance scores.
       * **Time Complexity**: O(log n) for insert and delete-max operations, where n is the number of suppliers.
       * **Space Complexity**: O(n), for storing the heap.
-      * 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/43749dc5-13cf-4411-965c-4d47a9c23b31)
 
+<details>
+<summary>Code implementation</summary>
 
-### Code implementation
-**Here is sample code:**
 [GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/c109011160512e2f39db670ca013749319527335/codes/supplier_performance.cpp)
+
+</details>
 
 ## Warehouse Layout Optimization<a name="WarehouseLayout"></a>
 
