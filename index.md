@@ -18,6 +18,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 1. [Goals](#Goals)
 2. [Algorithms and Data Structures used](#algos) 
 3. [Business Use Cases](#BusinessUseCases)
+4. [References](#References) 
 
 # Goals<a name="Goals"></a>
 ## Skills Development
@@ -603,6 +604,18 @@ Code Implementation
 
 
 [Back to contents](#BusinessUseCases)
+
+## References
+1. Bandekar, Shraddha. (2019). Optimization Algorithm in Supply Chain Management. International Journal of Innovative Technology and Exploring Engineering. 8. 5072-5079. 10.35940/ijitee.L2724.1081219. 
+[LINK](https://www.researchgate.net/publication/343007031_Optimization_Algorithm_in_Supply_Chain_Management)
+
+2. Supply chain optimization using machine learning methods. A manufacturing case study. 
+Manasas Vasileios SID: 33081170010 
+[LINK]([https://www.researchgate.net/publication/343007031_Optimization_Algorithm_in_Supply_Chain_Management](https://repository.ihu.edu.gr/xmlui/bitstream/handle/11544/29510/Manasas%20Vasileios%20Dissertation.pdf?sequence=1))
+
+3. Supply Chain Design and Optimization: Challenges and Opportunities
+    Daniel J. Garcia, Fengqi 
+[LINK](https://www.sciencedirect.com/science/article/am/pii/S0098135415000861)
 
 
 
