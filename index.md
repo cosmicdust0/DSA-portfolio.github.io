@@ -1,5 +1,6 @@
 
-![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/8709caaf-5b70-4d69-b2b6-b856e5a98c2b)
+!![Supply-chain-management-SCM-and-optimisation](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/829894c1-1a72-4500-b13a-bd7ea56492cf)
+[image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/8709caaf-5b70-4d69-b2b6-b856e5a98c2b)
 # Supply Chain Optimization with DSA
 <dl>
 <dt>Course Name</dt>
