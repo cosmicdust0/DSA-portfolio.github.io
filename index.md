@@ -1,6 +1,6 @@
 
 ![Supply-chain-management-SCM-and-optimisation](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/829894c1-1a72-4500-b13a-bd7ea56492cf)
-# Supply Chain Optimization with DSA
+
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
