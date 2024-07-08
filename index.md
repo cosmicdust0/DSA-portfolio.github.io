@@ -601,7 +601,7 @@ Code Implementation
 
 2. Supply chain optimization using machine learning methods. A manufacturing case study. 
 Manasas Vasileios SID: 33081170010 
-[LINK]([https://www.researchgate.net/publication/343007031_Optimization_Algorithm_in_Supply_Chain_Management](https://repository.ihu.edu.gr/xmlui/bitstream/handle/11544/29510/Manasas%20Vasileios%20Dissertation.pdf?sequence=1))
+[LINK](https://repository.ihu.edu.gr/xmlui/bitstream/handle/11544/29510/Manasas%20Vasileios%20Dissertation.pdf?sequence=1)
 
 3. Supply Chain Design and Optimization: Challenges and Opportunities
     Daniel J. Garcia, Fengqi 
