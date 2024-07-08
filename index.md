@@ -1,4 +1,6 @@
 # Supply Chain Optimization with DSA
+![image](https://github.com/cosmicdust0/DSA-portfolio.github.io/assets/101003281/8709caaf-5b70-4d69-b2b6-b856e5a98c2b)
+
 <dl>
 <dt>Course Name</dt>
 <dd>Algorithmic Problem Solving</dd>
