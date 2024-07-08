@@ -113,7 +113,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/route_optimization.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/route_optimization.cpp)
 
 
 [Back to contents](#BusinessUseCases)
@@ -142,7 +142,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/inventory_optimization.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/inventory_optimization.cpp)
 
 
 
@@ -171,7 +171,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/supplier_performance.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/supplier_performance.cpp)
 
 
 
@@ -205,7 +205,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/warehouse_layout.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/warehouse_layout.cpp)
 
 
 
@@ -239,7 +239,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/demand_forecasting.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/demand_forecasting.cpp)
 
 
 
@@ -273,7 +273,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/risk_management.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/risk_management.cpp)
 
 
 
@@ -306,7 +306,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/multi_echelon_inventory.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/multi_echelon_inventory.cpp)
 
 
 
@@ -340,7 +340,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/predictive_maintenance.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/predictive_maintenance.cpp)
 
 
 
@@ -374,7 +374,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/collaborative_planning.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/collaborative_planning.cpp)
 
 
 
@@ -408,7 +408,7 @@ Description
 
 Code Implementation
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/smart_contracts.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/smart_contracts.cpp)
 
 
 
@@ -444,7 +444,7 @@ Code Implementation
 
 **Here is sample code:**
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/network_design.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/network_design.cpp)
 
 
 
@@ -480,7 +480,7 @@ Code Implementation
 
 **Here is sample code:**
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/reverse_logistics.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/reverse_logistics.cpp)
 
 
 
@@ -516,7 +516,7 @@ Code Implementation
 
 **Here is sample code:**
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/dynamic_pricing.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/dynamic_pricing.cpp)
 
 
 
@@ -551,7 +551,7 @@ Code Implementation
 
 **Here is sample code:**
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/sustainable_supply_chain.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/sustainable_supply_chain.cpp)
 
 
 
@@ -587,7 +587,7 @@ Code Implementation
 
 **Here is sample code:**
 
-[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/1e91724f31cf94001a707c8901780fde8d44e44c/codes/supply_chain_finance.cpp)
+[GitHub Link to Code](https://github.com/cosmicdust0/DSA-portfolio.github.io/tree/6a9515306a60d52c76e35c0c0eedd82347733d1c/codes/supply_chain_finance.cpp)
 
 
 
