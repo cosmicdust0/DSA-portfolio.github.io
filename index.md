@@ -13,7 +13,9 @@
 </dl>
 
 # Project Description:
-This project demonstrates the application of data structures and algorithms (DSA) and ML to optimize a specific aspect of supply chain management, such as inventory management, logistics planning, or route optimization. 
+An optimized supply chain is critical in today's highly competitive and dynamic business environment. Efficient supply chain management not only reduces operational costs but also enhances customer satisfaction and increases overall business profitability. This project highlights the application of data structures and algorithms in optimizing various aspects of supply chain management, including inventory management, logistics planning, and route optimization. By employing the data structures and algorithms I have learned so far, this project has also introduced me to new ones, further improving my understanding. The project aims to solve complex supply chain problems with innovative and efficient solutions.
+
+The features focused on in this project encompass route optimization for last-mile delivery, inventory optimization systems, supplier performance tracking systems, and predictive maintenance systems. Each feature is designed to address specific challenges within the supply chain, providing significant market benefits and improving overall efficiency. Through these solutions, the project demonstrates the transformative potential of combining DSA, ML and supply chain management to drive business success and operational efficiency.
 
 ### Contents 
 1. [Goals](#Goals)
@@ -26,12 +28,12 @@ This project demonstrates the application of data structures and algorithms (DSA
 * **Data Structures and Algorithms (DSA) Proficiency:**
   -Apply efficient data structures (e.g., graphs, queues, trees) and algorithms (e.g., sorting, searching, shortest path) to solve complex supply chain problems.
   
-* **Problem-Solving Expertise:**
-  - Develop innovative solutions using appropriate DSA knowledge, demonstrating critical thinking and problem-solving skills.
+* **Develop research curiosity:**
+  - Develop innovative solutions using appropriate DSA knowledge, and research better ways to optimize them.
+    
 * **Algorithmic Optimization:**
   - Showcase an understanding of algorithm complexity and the ability to tailor them for specific supply chain requirements.
-* **Effective Data Management:**
-  - Employ strong data handling skills, including data organization, manipulation, and analysis using efficient techniques.
+
   
 ## Career Advancement
 * **Recognise and Understand the domain of my interest:**
@@ -40,6 +42,7 @@ This project demonstrates the application of data structures and algorithms (DSA
 * **Enhanced Engineering Capabilities:**
   - Build robust and efficient supply chain systems using DSA, elevating my engineering skillset.
   - Demonstrate proficiency in applying computer science concepts to tackle real-world supply chain problems.
+    
 * **Portfolio Impact:**
   - Create a strong portfolio showcasing innovative projects that address real-world supply chain problems using DSA.
   - Impress potential employers with my ability to design and implement effective solutions, making you a strong candidate for roles in supply chain management and software development.
