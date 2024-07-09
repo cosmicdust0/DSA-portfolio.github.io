@@ -12,12 +12,12 @@
 <dd>KLE Technological University, Hubballi-31</dd>
 </dl>
 
-# Project Description:
+# Project Description
 An optimized supply chain is critical in today's highly competitive and dynamic business environment. Efficient supply chain management not only reduces operational costs but also enhances customer satisfaction and increases overall business profitability. This project highlights the application of data structures and algorithms in optimizing various aspects of supply chain management, including inventory management, logistics planning, and route optimization. By employing the data structures and algorithms I have learned so far, this project has also introduced me to new ones, further improving my understanding. The project aims to solve complex supply chain problems with innovative and efficient solutions.
 
 The features focused on in this project encompass route optimization for last-mile delivery, inventory optimization systems, supplier performance tracking systems, and predictive maintenance systems. Each feature is designed to address specific challenges within the supply chain, providing significant market benefits and improving overall efficiency. Through these solutions, the project demonstrates the transformative potential of combining DSA, ML and supply chain management to drive business success and operational efficiency.
 
-### Contents 
+# Contents 
 1. [Goals](#Goals)
 2. [Algorithms and Data Structures used](#algos) 
 3. [Business Use Cases](#BusinessUseCases)
